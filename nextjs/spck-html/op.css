@@ -1,0 +1,47 @@
+/* This was made with GlassGenerator.netlify.app */
+
+
+h1{
+    /* background: red; */
+    /* color: red; */
+}
+
+.glass-container {
+    width: 700px;
+    height: 375px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 17px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.145);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 1px rgba(255, 255, 255, 0.4) solid;
+    border-bottom: 1px rgba(40, 40, 40, 0.35) solid;
+    border-right: 1px rgba(40, 40, 40, 0.35) solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
