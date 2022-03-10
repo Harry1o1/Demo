@@ -35,7 +35,7 @@ export default function Layout({ children }) {
         strategy="beforeInteractive"
       />
       <Script
-        type="module" src="https://rawcdn.githack.com/Harry1o1/LetTheWorkBeDone/2ad3d52e76f2eb4fea464c79cf51bae184f520ff/nextjs/ux/globals.js"
+        type="module" src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs/ux/globals.js"
         strategy="beforeInteractive"
       />
 
@@ -73,5 +73,4 @@ export default function Layout({ children }) {
     </>
   );
 };
-
 
