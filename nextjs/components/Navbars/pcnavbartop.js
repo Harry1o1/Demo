@@ -3,7 +3,7 @@ import React from 'react'
 
 
 
-function Pc_NavarTop() {    
+function Pc1() {    
   return (
     <>
         {/* Top navigation */}
