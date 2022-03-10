@@ -1,4 +1,23 @@
 /* @use "./components"as *; */
+@import "open-props/colors-hsl";
+@import "https://unpkg.com/open-props";
+
+/* index.css */
+@import "https://unpkg.com/open-props/colors.min.css";
+@import "https://unpkg.com/open-props/colors-hsl.min.css";
+
+@import "https://unpkg.com/open-props/indigo.min.css";
+@import "https://unpkg.com/open-props/indigo-hsl.min.css";
+
+@import "https://unpkg.com/open-props/easings.min.css";
+@import "https://unpkg.com/open-props/animations.min.css";
+
+@import "https://unpkg.com/open-props/sizes.min.css";
+@import "https://unpkg.com/open-props/gradients.min.css";
+/* etc */
+
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sansita+Swashed:wght@600;900&display=swap');
@@ -1540,6 +1559,24 @@
     
     font-size: 5rem;
 } */
+
+#menu h1,#hero h1{
+    background-color: hsl(var(--gray-9-hsl) / 40%);    
+}
+
+
+
+ #hero .text, #menu .text{
+      background: var(--gradient-1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+     
+     font-size: 5rem;
+     font-weight: 900;
+     
+ }
+
+
 
 /*///////////////////////////////  
                     Never give up,
