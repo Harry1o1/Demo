@@ -15,38 +15,40 @@ function Pc2() {
                       <i class='bx bx-search icon'></i>
                       <input type="text" placeholder="Search...">
                   </li> */}
-              <ul className="menu-links">
-                <li className="nav-link">
-                  <a href="#">
-                    <ion-icon className="icon" name="albums-outline" id="photo-search" />
-                    <span className="text nav-text">Dashboard</span>
-                  </a>
-                </li>
-                <li className="nav-link">
-                  <a href="#">
-                    <ion-icon className="icon" name="albums-outline" id="photo-search" />
-                    <span className="text nav-text">Wallets</span>
-                  </a>
-                </li>
-                <li className="nav-link">
-                  <a href="#">
-                    <ion-icon className="icon" name="albums-outline" id="photo-search" />
-                    <span className="text nav-text">Wallets</span>
-                  </a>
-                </li>
-                <li className="nav-link">
-                  <a href="#">
-                    <ion-icon className="icon" name="albums-outline" id="photo-search" />
-                    <span className="text nav-text">Wallets</span>
-                  </a>
-                </li>
-                <li className="nav-link">
-                  <a href="#">
-                    <ion-icon className="icon" name="albums-outline" id="photo-search" />
-                    <span className="text nav-text">Wallets</span>
-                  </a>
-                </li>
-              </ul>
+                  
+            <ul className="menu-links">
+              <li className="nav-link">
+                <a href="#">
+                  {/* <ion-icon class="icon" name="albums-outline" id="photo-search"></ion-icon> */}
+                  <ion-icon name="menu-outline" className="icon" />
+                  <span className="text nav-text">Dashboard</span>
+                </a>
+              </li>
+              <li className="nav-link">
+                <a href="#">
+                  {/* <ion-icon class="icon" name="albums-outline" id="photo-search"></ion-icon> */}
+                  <span className="text nav-text">Wallets</span>
+                </a>
+              </li>
+              <li className="nav-link">
+                <a href="#">
+                  {/* <ion-icon class="icon" name="albums-outline" id="photo-search"></ion-icon> */}
+                  <span className="text nav-text">Wallets</span>
+                </a>
+              </li>
+              <li className="nav-link">
+                <a href="#">
+                  {/* <ion-icon class="icon" name="albums-outline" id="photo-search"></ion-icon> */}
+                  <span className="text nav-text">Wallets</span>
+                </a>
+              </li>
+              <li className="nav-link">
+                <a href="#">
+                  {/* <ion-icon class="icon" name="albums-outline" id="photo-search"></ion-icon> */}
+                  <span className="text nav-text">Wallets</span>
+                </a>
+              </li>
+            </ul>
             </div>
             <div className="bottom-content">
               <li className>
