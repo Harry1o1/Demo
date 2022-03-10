@@ -1,5 +1,6 @@
 
 import Navbar from "./navbar";
+import Navbar1 from "./Navbars/navbar1";
 import Footer1 from '../containers/Footer/Footer';
 
 
@@ -39,7 +40,7 @@ export default function Layout({ children }) {
       />
 
 
-      <Navbar />
+      <Navbar1 />
       {/* Page content */}
       <div id="pro-main-container">
         <div id="menu">
