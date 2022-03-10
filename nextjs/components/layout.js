@@ -1,5 +1,5 @@
 
-import Navbar from "navbar";
+import Navbar from "./navbar";
 import Footer1 from '../containers/Footer/Footer';
 
 
