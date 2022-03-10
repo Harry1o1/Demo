@@ -1560,13 +1560,13 @@
     font-size: 5rem;
 } */
 
-#menu h1,#hero h1{
+#hero h1{
     background-color: hsl(var(--gray-9-hsl) / 40%);    
 }
 
 
 
- #hero .text, #menu .text{
+ #hero .text{
       background: var(--gradient-1);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
