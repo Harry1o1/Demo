@@ -6,7 +6,7 @@
 
 
 
-function Footer1() {
+export default function Footer1() {
   return (
     <>
         
