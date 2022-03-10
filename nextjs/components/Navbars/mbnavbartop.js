@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 
 
-function Mb_NavarTop() {    
+function Mb2() {    
   return (
     <>
         
