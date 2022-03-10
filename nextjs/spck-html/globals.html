@@ -16,10 +16,10 @@
     <!-- <link href="../boostrap." rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     
-   
-
-
-
+    
+    <!-- Open Props -->
+    <link rel="stylesheet" href="https://unpkg.com/open-props"/>
+    <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
     
 </head>
 <body>
@@ -38,67 +38,43 @@
     
 <!-- ///////////////////////////////// Navbar /////////////////////////////////////-->
 <nav class="sidebar close" id="pro-navbartop-sidebar">
-        <header>
-            <div class="image-text">
-                <span class="image">
-                    <img src="logo.png" alt="">
-                </span>
-
-                <div class="text logo-text">
-                    <span class="name">Codinglab</span>
-                    <span class="profession">Web developer</span>
-                </div>
-            </div>
-
-            <i class='bx bx-chevron-right toggle' id="toggle"></i>
-        </header>
         <div class="menu-bar">
             <div class="menu">
-
-                <li class="search-box">
+                <!-- <li class="search-box">
                     <i class='bx bx-search icon'></i>
                     <input type="text" placeholder="Search...">
-                </li>
-
+                </li> -->
                 <ul class="menu-links">
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-home-alt icon' ></i>
+                            
+                            <ion-icon class="icon" name="albums-outline" id="photo-search"></ion-icon>
+                        
                             <span class="text nav-text">Dashboard</span>
                         </a>
                     </li>
-
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
-                            <span class="text nav-text">Revenue</span>
+                            <ion-icon class="icon" name="albums-outline" id="photo-search"></ion-icon>
+                            <span class="text nav-text">Wallets</span>
                         </a>
                     </li>
-
+                    
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-bell icon'></i>
-                            <span class="text nav-text">Notifications</span>
+                            <ion-icon class="icon" name="albums-outline" id="photo-search"></ion-icon>
+                            <span class="text nav-text">Wallets</span>
                         </a>
                     </li>
-
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-pie-chart-alt icon' ></i>
-                            <span class="text nav-text">Analytics</span>
+                            <ion-icon class="icon" name="albums-outline" id="photo-search"></ion-icon>
+                            <span class="text nav-text">Wallets</span>
                         </a>
                     </li>
-
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-heart icon' ></i>
-                            <span class="text nav-text">Likes</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-wallet icon' ></i>
+                            <ion-icon class="icon" name="albums-outline" id="photo-search"></ion-icon>
                             <span class="text nav-text">Wallets</span>
                         </a>
                     </li>
@@ -130,7 +106,8 @@
         </div>
 
     </nav>
-<div id="pro-navbartop-container">
+    
+<!-- <div id="pro-navbartop-container">
             <nav id="pro-navbar-top" class="boostrap">
                 <li class="pntli" id="pntli1">
                     <ion-icon class="pntic" name="menu-outline"></ion-icon>
@@ -146,7 +123,7 @@
                 </li>
                 <li class="pntli" id="pntli4">
                     <h1>LTWBD</h1>
-                    <!-- <ion-icon class="pntic" name="musical-note-outline"></ion-icon> -->
+                    <ion-icon class="pntic" name="musical-note-outline"></ion-icon>
                 </li>
                 <li class="pntli" id="pntli5">
                     <ion-icon class="pntic" name="mic-outline"></ion-icon>
@@ -162,7 +139,76 @@
                     
                 </li>
             </nav>
+    </div> -->
+
+
+
+<nav id="pro_navbar_top" class="bg-dark">
+    
+    <div id="pntcg1" class="pntc">
+       
+        <ion-icon name="menu-outline"></ion-icon>
+      
+    </div>
+    
+    <div id="pntlc">
+        
+        <h1> Freelancrs </h1>
+    </div>
+    
+    
+    <div id="pntcc">
+        
+        <div class="pnti mb" id="tools"> 
+            
+            <ion-icon name="caret-down-outline"></ion-icon>
+            
         </div>
+        
+        <div id="logo" class="mb pntl">
+            
+            <ion-icon name="logo-google"></ion-icon>
+            
+        </div>
+        
+        <div id="search-container" class="mb-adjust">
+            
+            <ion-icon name="search-outline" id="search"></ion-icon>
+            
+            <input type="search" name="#search" id="searchbar" placeholder="Search for joy">
+            
+            <ion-icon name="mic-outline" id="mic-search"></ion-icon>
+            
+            <ion-icon name="albums-outline" id="photo-search"></ion-icon>
+            
+        </div>
+    </div>
+    
+    
+    <div id="pntrc">
+        
+        <div class="pnti" id="upload">
+            
+            <ion-icon name="cloud-upload-outline"></ion-icon>
+            
+        </div>
+        <div class="pnti" id="notifications">
+            
+            <ion-icon name="notifications-outline"></ion-icon>
+            
+        </div>
+    </div>
+    
+    
+    <div id="pntcg2" class="pntc">
+        
+        <ion-icon name="person-add-outline"></ion-icon>
+        
+    </div>
+    
+</nav>
+
+
 <nav id="mb_navbar_top">
     <div id="mb_navbartop_header">
          <!-- Profile -->
@@ -191,7 +237,7 @@
             
         <!-- All apps -->
         <!-- <ion-icon name="apps-outline" class="mb-navbartop-icons" id="allapps-icon-mb"></ion-icon> -->
-        <div id="nine_dots">
+        <!-- <div id="nine_dots">
            
             <span id="hh" style="--i:0;--x:-1;--y:0">
                 <ion-icon name="home-outline"></ion-icon>        
@@ -230,11 +276,11 @@
                 
             </span>
             <ion-icon name="close-outline" id="cancel_web"></ion-icon>
-
-        </div>
+        
+        </div> -->
         
         <!-- Voicesearch -->
-        <ion-icon name="mic-outline" class="mb-navbartop-icons" id="voicesearch-icon"></ion-icon>
+        <!-- <ion-icon name="mic-outline" class="mb-navbartop-icons" id="voicesearch-icon"></ion-icon> -->
         
         
         <!-- Brand 🐥🐥🐥 -->
@@ -243,10 +289,10 @@
         </h1>
         
         <!-- Search 🐥🐥🐥 -->
-        <ion-icon name="search-outline" class="mb-navbartop-icons" id="search-icon" ></ion-icon>    
+        <!-- <ion-icon name="search-outline" class="mb-navbartop-icons" id="search-icon" ></ion-icon> -->    
         
         <!-- Rocket -->
-        <ion-icon name="rocket-outline" class="mb-navbartop-icons" id="rocket-icon-mb"></ion-icon>
+        <!-- <ion-icon name="rocket-outline" class="mb-navbartop-icons" id="rocket-icon-mb"></ion-icon> -->
         
         <!-- Notifications -->
         <ion-icon name="notifications-outline" class="mb-navbartop-icons" id="notifications-icon-mb"></ion-icon>    
@@ -352,6 +398,13 @@
         </div>
     
 </nav>    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <div id="pro-navbarbottom-container">
             <nav id="pro-navbar-bottom">
                 
@@ -808,8 +861,33 @@
 
 
 
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="#">Data</a></li>
+      </ol>
+    </nav>
+  </div>
+</nav> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script type="module" src="../ux/globals.js" charset="utf-8"></script>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
 
 
     <!-- <script src="script.js"></script> -->
