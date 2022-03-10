@@ -51,4 +51,4 @@ function Pc_NavarTop() {
 
 
 
-export default Pc_NavbarTop;
+export default Pc1;

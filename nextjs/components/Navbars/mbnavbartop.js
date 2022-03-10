@@ -14,7 +14,7 @@ function Mb_NavarTop() {
         
         {/* Top navigation */}
         <nav id="mb_navbar_top">
-          <div id="mb_navbartop_header">
+          <div id="Mb2_header">
             {/* Profile */}
             <ion-icon name="person-circle-outline" className="mb-navbartop-icons" id="profile-icon-mb" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" />
             {/* Dropdown */}
@@ -29,7 +29,7 @@ function Mb_NavarTop() {
               </div>
             </div>
             {/* Brand 🐥🐥🐥 */}
-            <h1 id="mb_navbartop_brand">
+            <h1 id="Mb2_brand">
               LTWBD
             </h1>
             {/* Search 🐥🐥🐥 */}
@@ -48,7 +48,7 @@ function Mb_NavarTop() {
               </div>
             </div>    
           </div>
-          {/* <div id="mb_navbartop_scroll-container">
+          {/* <div id="Mb2_scroll-container">
             </div> */}
         
         
@@ -56,11 +56,11 @@ function Mb_NavarTop() {
         
         
         
-                <div id="mb_navbartop_scroll">
+                <div id="Mb2_scroll">
                   <li>
         
                     <Link passHref href="/">
-                      <a href="#" className="mb_navbartopscroll_pages"> Index </a>
+                      <a href="#" className="Mb2scroll_pages"> Index </a>
                     </Link>
         
                   </li>
@@ -68,98 +68,98 @@ function Mb_NavarTop() {
                   <li>
         
                     <Link passHref href="/contract">
-                      <a href="#" className="mb_navbartopscroll_pages"> Contract </a>
+                      <a href="#" className="Mb2scroll_pages"> Contract </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/about ">
-                      <a href="#" className="mb_navbartopscroll_pages"> about </a>
+                      <a href="#" className="Mb2scroll_pages"> about </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/addpost ">
-                      <a href="#" className="mb_navbartopscroll_pages"> addpost </a>
+                      <a href="#" className="Mb2scroll_pages"> addpost </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/addvideo ">
-                      <a href="#" className="mb_navbartopscroll_pages"> addvideo </a>
+                      <a href="#" className="Mb2scroll_pages"> addvideo </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/contract">
-                      <a href="#" className="mb_navbartopscroll_pages"> contract </a>
+                      <a href="#" className="Mb2scroll_pages"> contract </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/cookie">
-                      <a href="#" className="mb_navbartopscroll_pages"> cookie </a>
+                      <a href="#" className="Mb2scroll_pages"> cookie </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/django">
-                      <a href="#" className="mb_navbartopscroll_pages"> django </a>
+                      <a href="#" className="Mb2scroll_pages"> django </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/fileupload1">
-                      <a href="#" className="mb_navbartopscroll_pages"> fileupload1 </a>
+                      <a href="#" className="Mb2scroll_pages"> fileupload1 </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/goals">
-                      <a href="#" className="mb_navbartopscroll_pages"> goals </a>
+                      <a href="#" className="Mb2scroll_pages"> goals </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/home">
-                      <a href="#" className="mb_navbartopscroll_pages"> Home </a>
+                      <a href="#" className="Mb2scroll_pages"> Home </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/login">
-                      <a href="#" className="mb_navbartopscroll_pages"> Login </a>
+                      <a href="#" className="Mb2scroll_pages"> Login </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/library">
-                      <a href="#" className="mb_navbartopscroll_pages"> Library </a>
+                      <a href="#" className="Mb2scroll_pages"> Library </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/profile1">
-                      <a href="#" className="mb_navbartopscroll_pages"> Profile1 </a>
+                      <a href="#" className="Mb2scroll_pages"> Profile1 </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/profile2">
-                      <a href="#" className="mb_navbartopscroll_pages"> Profile2 </a>
+                      <a href="#" className="Mb2scroll_pages"> Profile2 </a>
                     </Link>
         
                   </li>
@@ -167,85 +167,85 @@ function Mb_NavarTop() {
                   <li>
         
                     <Link passHref href="/register1">
-                      <a href="#" className="mb_navbartopscroll_pages"> Register1 </a>
+                      <a href="#" className="Mb2scroll_pages"> Register1 </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/register2">
-                      <a href="#" className="mb_navbartopscroll_pages"> Register2 </a>
+                      <a href="#" className="Mb2scroll_pages"> Register2 </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/reupload1">
-                      <a href="#" className="mb_navbartopscroll_pages"> Reupload1 </a>
+                      <a href="#" className="Mb2scroll_pages"> Reupload1 </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/subscription">
-                      <a href="#" className="mb_navbartopscroll_pages"> Subscription </a>
+                      <a href="#" className="Mb2scroll_pages"> Subscription </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/upload">
-                      <a href="#" className="mb_navbartopscroll_pages"> Upload </a>
+                      <a href="#" className="Mb2scroll_pages"> Upload </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/upload2">
-                      <a href="#" className="mb_navbartopscroll_pages"> Upload2 </a>
+                      <a href="#" className="Mb2scroll_pages"> Upload2 </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/web3">
-                      <a href="#" className="mb_navbartopscroll_pages"> Web3 </a>
+                      <a href="#" className="Mb2scroll_pages"> Web3 </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/xyz1">
-                      <a href="#" className="mb_navbartopscroll_pages"> Xyz1 </a>
+                      <a href="#" className="Mb2scroll_pages"> Xyz1 </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/xyz2">
-                      <a href="#" className="mb_navbartopscroll_pages"> Xyz2 </a>
+                      <a href="#" className="Mb2scroll_pages"> Xyz2 </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/xyz3">
-                      <a href="#" className="mb_navbartopscroll_pages"> Xyz3 </a>
+                      <a href="#" className="Mb2scroll_pages"> Xyz3 </a>
                     </Link>
         
                   </li>
                   <li>
         
                     <Link passHref href="/xyz4">
-                      <a href="#" className="mb_navbartopscroll_pages"> Xyz4 </a>
+                      <a href="#" className="Mb2scroll_pages"> Xyz4 </a>
                     </Link>
         
                   </li>
         
-                  <li id="mb_navbartopscroll_pages_last">
+                  <li id="Mb2scroll_pages_last">
         
                     <Link passHref href="/xyz5">
-                      <a href="#" className="mb_navbartopscroll_pages"> Xyz5 </a>
+                      <a href="#" className="Mb2scroll_pages"> Xyz5 </a>
                     </Link>
         
                   </li>
@@ -268,5 +268,5 @@ function Mb_NavarTop() {
 
 
 
-export default Mb_NavbarTop;
+export default Mb2;
 

@@ -3,7 +3,7 @@ import React from 'react'
 
 
 
-function Mb_BottomBar() {    
+function Mb1() {    
   return (
     <>
      
@@ -42,4 +42,4 @@ function Mb_BottomBar() {
 
 
 
-export default Mb_BottomBar;
+export default Mb1;

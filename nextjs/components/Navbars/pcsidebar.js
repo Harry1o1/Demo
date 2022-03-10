@@ -3,7 +3,7 @@ import React from 'react'
 
 
 
-function Pc_SideBar() {    
+function Pc2() {    
   return (
     <>
      
@@ -79,4 +79,4 @@ function Pc_SideBar() {
 
 
 
-export default Pc_SideBar;
+export default Pc2;
