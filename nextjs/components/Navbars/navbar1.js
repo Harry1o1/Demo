@@ -388,6 +388,7 @@ function Navbar1() {
       </ul>
     </nav>
     {/* ///////////////////////////////// Pc Navbar End /////////////////////////////////////*/}
+    
     {/* ///////////////////////////////// Mb /////////////////////////////////////*/}
     <nav id="mb_navbar_top">
       <div id="mb_navbartop_header">
@@ -395,54 +396,18 @@ function Navbar1() {
         <ion-icon name="person-circle-outline" className="mb-navbartop-icons" id="profile-icon-mb" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" />
         {/* Dropdown */}
         <ion-icon name="caret-down-outline" className="mb-navbartop-icons" id="dropdown-icon-mb" />
+        
         <div className="offcanvas offcanvas-start" tabIndex={-1} id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
           <div className="offcanvas-header">
             <h5 id="offcanvasRightLabel">Offcanvas left</h5>
             <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" />
           </div>
         </div>
-        {/* All apps */}
         {/* <ion-icon name="apps-outline" class="mb-navbartop-icons" id="allapps-icon-mb"></ion-icon> */}
-        <div id="nine_dots">
-          <span id="hh" style={{ "--i": "0", "--x": "-1", "--y": "0" }}>
-            <ion-icon name="home-outline" />
-          </span>
-          <span id="hh" style={{ "--i": "1", "--x": "1", "--y": "0" }}>
-            <ion-icon name="telescope-outline" />
-          </span>
-          <span id="hh" style={{ "--i": "2", "--x": "0", "--y": "-1" }}>
-            <ion-icon name="logo-android" />
-          </span>
-          <span id="hh" style={{ "--i": "3", "--x": "0", "--y": "1" }}>
-            <ion-icon name="logo-css3" />
-          </span>
-          <span id="hh" style={{ "--i": "4", "--x": "1", "--y": "1" }}>
-            <ion-icon name="logo-facebook" />
-          </span>
-          <span id="hh" style={{ "--i": "5", "--x": "-1", "--y": "-1" }}>
-            <ion-icon name="logo-github" />
-          </span>
-          <span id="hh" style={{ "--i": "6", "--x": "0", "--y": "0" }}>
-            <ion-icon name="logo-google-playstore" />
-          </span>
-          <span id="hh" style={{ "--i": "7", "--x": "-1", "--y": "1" }}>
-            <ion-icon name="logo-google" />
-          </span>
-          <span id="hh" style={{ "--i": "8", "--x": "1", "--y": "-1" }}>
-            <ion-icon name="logo-figma" />
-          </span>
-          <ion-icon name="close-outline" id="cancel_web" />
-        </div>
-        {/* Voicesearch */}
-        <ion-icon name="mic-outline" className="mb-navbartop-icons" id="voicesearch-icon" />
         {/* Brand 🐥🐥🐥 */}
         <h1 id="mb_navbartop_brand">
           LWBD
         </h1>
-        {/* Search 🐥🐥🐥 */}
-        <ion-icon name="search-outline" className="mb-navbartop-icons" id="search-icon" />
-        {/* Rocket */}
-        <ion-icon name="rocket-outline" className="mb-navbartop-icons" id="rocket-icon-mb" />
         {/* Notifications */}
         <ion-icon name="notifications-outline" className="mb-navbartop-icons" id="notifications-icon-mb" />
         {/* Menu icon  will update soon...*/}
