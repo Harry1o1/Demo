@@ -81,7 +81,7 @@
         
         /* background: red; */
         position: relative;
-        top: 6.5rem;
+        top: 7.5rem;
         left: 0;
         
     }
@@ -110,8 +110,10 @@
     
     
         transition-delay: 0.5s;
-        box-shadow: 18px 18px 36px #5a5a5a,
-            -18px -18px 36px #ffffff;
+        /* box-shadow: 18px 18px 36px #5a5a5a,
+            -18px -18px 36px #ffffff; */
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    
     
         min-height: 6.5rem;
         /* height: 3rem; */

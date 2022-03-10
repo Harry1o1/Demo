@@ -1,20 +1,816 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ai</title>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <!--Styles-->    
     <link rel="stylesheet" href="../styles/globals.css">
     
+    
     <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="../styles/boostrap.css"> -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    
+    <!-- <link href="../boostrap." rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    
+    <!-- Open Props -->
+    <link rel="stylesheet" href="https://unpkg.com/open-props"/>
+    <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
     
 </head>
 <body>
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- ///////////////////////////////// Navbar /////////////////////////////////////-->
+<nav class="sidebar close" id="pro-navbartop-sidebar">
+        <div class="menu-bar">
+            <div class="menu">
+                <!-- <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li> -->
+                
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            
+                            <!-- <ion-icon class="icon" name="albums-outline" id="photo-search"></ion-icon> -->
+                                    <ion-icon name="menu-outline" class="icon"></ion-icon>
+
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <!-- <ion-icon class="icon" name="albums-outline" id="photo-search"></ion-icon> -->
+                            <span class="text nav-text">Wallets</span>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-link">
+                        <a href="#">
+                            <!-- <ion-icon class="icon" name="albums-outline" id="photo-search"></ion-icon> -->
+                            <span class="text nav-text">Wallets</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <!-- <ion-icon class="icon" name="albums-outline" id="photo-search"></ion-icon> -->
+                            <span class="text nav-text">Wallets</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            
+                            
+                            <!-- <ion-icon class="icon" name="albums-outline" id="photo-search"></ion-icon> -->
+                            <span class="text nav-text">Wallets</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+    
+<!-- <div id="pro-navbartop-container">
+            <nav id="pro-navbar-top" class="boostrap">
+                <li class="pntli" id="pntli1">
+                    <ion-icon class="pntic" name="menu-outline"></ion-icon>
+                    
+                </li>
+                <li class="pntli" id="pntli2">
+                    <ion-icon class="pntic" name="caret-down-outline"></ion-icon>
+                    
+                </li>
+                <li class="pntli" id="pntli3">
+                    <ion-icon class="pntic" name="move-outline"></ion-icon>
+                    
+                </li>
+                <li class="pntli" id="pntli4">
+                    <h1>LTWBD</h1>
+                    <ion-icon class="pntic" name="musical-note-outline"></ion-icon>
+                </li>
+                <li class="pntli" id="pntli5">
+                    <ion-icon class="pntic" name="mic-outline"></ion-icon>
+                    
+                </li>
+                <li class="pntli" id="pntli6">
+                    <ion-icon class="pntic" name="rocket-outline"></ion-icon>
+                    
+                </li>
+                <li class="pntli" id="pntli7">
+                    <ion-icon class="pntic" name="person-add-outline"></ion-icon>
+                    
+                    
+                </li>
+            </nav>
+    </div> -->
+
+
+
+<nav id="pro_navbar_top" class="bg-dark">
+    
+    <div id="pntcg1" class="pntc">
+       
+        <ion-icon name="menu-outline"></ion-icon>
+      
+    </div>
+    
+    <div id="pntlc">
+        
+        <h1> Freelancrs </h1>
+    </div>
+    
+    
+    <div id="pntcc">
+        
+        <div class="pnti mb" id="tools"> 
+            
+            <ion-icon name="caret-down-outline"></ion-icon>
+            
+        </div>
+        
+        <div id="logo" class="mb pntl">
+            
+            <ion-icon name="logo-google"></ion-icon>
+            
+        </div>
+        
+        <div id="search-container" class="mb-adjust">
+            
+            <ion-icon name="search-outline" id="search"></ion-icon>
+            
+            <input type="search" name="#search" id="searchbar" placeholder="Search for joy">
+            
+            <ion-icon name="mic-outline" id="mic-search"></ion-icon>
+            
+            <ion-icon name="albums-outline" id="photo-search"></ion-icon>
+            
+        </div>
+    </div>
+    
+    
+    <div id="pntrc">
+        
+        <div class="pnti" id="upload">
+            
+            <ion-icon name="cloud-upload-outline"></ion-icon>
+            
+        </div>
+        <div class="pnti" id="notifications">
+            
+            <ion-icon name="notifications-outline"></ion-icon>
+            
+        </div>
+    </div>
+    
+    
+    <div id="pntcg2" class="pntc">
+        
+        <ion-icon name="person-add-outline"></ion-icon>
+        
+    </div>
+    
+</nav>
+
+
+<nav id="mb_navbar_top">
+    <div id="mb_navbartop_header">
+         <!-- Profile -->
+        <ion-icon name="person-circle-outline" class="mb-navbartop-icons" id="profile-icon-mb" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></ion-icon>
+
+        
+        <!-- Dropdown -->
+        <ion-icon name="caret-down-outline" class="mb-navbartop-icons" id="dropdown-icon-mb"></ion-icon>
+    
+    
+    
+    
+    
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        ...
+      </div>
+    </div>
+
+    
+            
+        <!-- All apps -->
+        <!-- <ion-icon name="apps-outline" class="mb-navbartop-icons" id="allapps-icon-mb"></ion-icon> -->
+        <!-- <div id="nine_dots">
+           
+            <span id="hh" style="--i:0;--x:-1;--y:0">
+                <ion-icon name="home-outline"></ion-icon>        
+                
+            </span>
+            <span id="hh" style="--i:1;--x:1;--y:0">
+                <ion-icon name="telescope-outline"></ion-icon>
+                
+            </span>
+            <span id="hh" style="--i:2;--x:0;--y:-1">
+                <ion-icon name="logo-android"></ion-icon>
+                
+            </span>
+            <span id="hh" style="--i:3;--x:0;--y:1">
+                <ion-icon name="logo-css3"></ion-icon>
+                
+            </span>
+            <span id="hh" style="--i:4;--x:1;--y:1">
+                <ion-icon name="logo-facebook"></ion-icon>
+                
+            </span>
+            <span id="hh" style="--i:5;--x:-1;--y:-1">
+                <ion-icon name="logo-github"></ion-icon>
+                
+            </span>
+            <span id="hh" style="--i:6;--x:0;--y:0">
+                <ion-icon name="logo-google-playstore"></ion-icon>
+                
+            </span>
+            <span id="hh" style="--i:7;--x:-1;--y:1">
+                <ion-icon name="logo-google"></ion-icon>
+                
+            </span>
+            <span id="hh" style="--i:8;--x:1;--y:-1">
+                <ion-icon name="logo-figma"></ion-icon>
+                
+            </span>
+            <ion-icon name="close-outline" id="cancel_web"></ion-icon>
+        
+        </div> -->
+        
+        <!-- Voicesearch -->
+        <!-- <ion-icon name="mic-outline" class="mb-navbartop-icons" id="voicesearch-icon"></ion-icon> -->
+        
+        
+        <!-- Brand 🐥🐥🐥 -->
+        <h1 id="mb_navbartop_brand">
+            LTWBD
+        </h1>
+        
+        <!-- Search 🐥🐥🐥 -->
+        <!-- <ion-icon name="search-outline" class="mb-navbartop-icons" id="search-icon" ></ion-icon> -->    
+        
+        <!-- Rocket -->
+        <!-- <ion-icon name="rocket-outline" class="mb-navbartop-icons" id="rocket-icon-mb"></ion-icon> -->
+        
+        <!-- Notifications -->
+        <ion-icon name="notifications-outline" class="mb-navbartop-icons" id="notifications-icon-mb"></ion-icon>    
+        
+        
+        
+        <!-- Menu icon  will update soon...-->
+        <ion-icon name="menu-outline" class="mb-navbartop-icons" id="menu-icon-mb" class="pc-navbartop-icons" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></ion-icon>    
+<!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+
+    
+    
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">Offcanvas left</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+  
+</div>    
+    </div>
+
+    
+    <!-- <div id="mb_navbartop_scroll-container">
+    </div> -->
+        
+        <div id="mb_navbartop_scroll">
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page1</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page2</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page3</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page4</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page5</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page6</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page7</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page8</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page9</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page10</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page11</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page12</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page13</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page14</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page15</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page16</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page17</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page18</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page19</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page20</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page21</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page22</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page23</a>
+            </li>
+            <li>
+                <a href="#" class="mb_navbartopscroll_pages">page24</a>
+            </li>
+            <li id="mb_navbartopscroll_pages_last">
+                <a href="#" class="mb_navbartopscroll_pages" >page25</a>
+            </li>
+            
+        </div>
+    
+</nav>    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<div id="pro-navbarbottom-container">
+            <nav id="pro-navbar-bottom">
+                
+                <li class="pnbli" id="pnbli1">
+                    <img src="https://img.icons8.com/color/48/000000/tiktok--v1.png" />
+                </li>
+                <li class="pnbli" id="pnbli2">
+                    <img src="https://img.icons8.com/color/48/000000/home.png" />
+                </li>
+                <li class="pnbli" id="pnbli3">
+                    <ion-icon class="pftic" name="add" class="pnbli-icon-add"></ion-icon>
+                </li>
+                <li class="pnbli" id="pnbli4">
+                    <img src="https://img.icons8.com/color/48/000000/subscription.png" />
+                    
+                </li>
+                <li class="pnbli" id="pnbli5">
+                    <img src="https://img.icons8.com/color/48/000000/library-building.png" />
+                </li>
+              
+            </nav>
+            <div id="pnbcc">
+                <div id="pnbli-circle"></div>
+                
+            </div>
+        
+        </div>
+
+<!-- ///////////////////////////////// Navbar End /////////////////////////////////////-->
+
+
+
+
+<!-- ///////////////////////////////// Main /////////////////////////////////////-->
+<div id="pro-main-container">
+        
+        <div id="hero">
+            <div class="text">Dashboard Sidebar</div>
+            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eligendi illum voluptatem et ipsum culpa, fuga nisi laborum vel neque odio aut magni blanditiis expedita eum officiis iusto cumque aperiam quia delectus voluptas. Atque eveniet, labore libero voluptatem id quia, animi nisi ab. Amet, saepe, molestiae quibusdam laborum a eaque.</h1>
+            
+        </div>
+        
+        <footer id="pro_footer_main-container">
+              
+             <!-- <svg width="100%" height="100%" id="veg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
+              .path-0{
+                animation:pathAnim-0 4s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+              }
+              @keyframes pathAnim-0{
+                0%{
+                  d: path("M 0,400 C 0,400 0,200 0,200 C 109.50239234449762,220.1531100478469 219.00478468899524,240.3062200956938 302,222 C 384.99521531100476,203.6937799043062 441.48325358851673,146.9282296650718 528,129 C 614.5167464114833,111.07177033492822 731.0622009569377,131.98086124401914 839,158 C 946.9377990430623,184.01913875598086 1046.267942583732,215.14832535885168 1145,223 C 1243.732057416268,230.85167464114832 1341.8660287081339,215.42583732057415 1440,200 C 1440,200 1440,400 1440,400 Z");
+                }
+                25%{
+                  d: path("M 0,400 C 0,400 0,200 0,200 C 112.6794258373206,164.21052631578948 225.3588516746412,128.42105263157896 308,131 C 390.6411483253588,133.57894736842104 443.244019138756,174.52631578947367 536,192 C 628.755980861244,209.47368421052633 761.6650717703349,203.47368421052633 865,192 C 968.3349282296651,180.52631578947367 1042.0956937799042,163.57894736842104 1133,164 C 1223.9043062200958,164.42105263157896 1331.952153110048,182.21052631578948 1440,200 C 1440,200 1440,400 1440,400 Z");
+                }
+                50%{
+                  d: path("M 0,400 C 0,400 0,200 0,200 C 103.30143540669857,171.93301435406698 206.60287081339715,143.866028708134 286,149 C 365.39712918660285,154.133971291866 420.88995215311,192.4688995215311 527,195 C 633.11004784689,197.5311004784689 789.8373205741626,164.25837320574163 903,145 C 1016.1626794258374,125.74162679425838 1085.7607655502393,120.4976076555024 1168,132 C 1250.2392344497607,143.5023923444976 1345.1196172248804,171.7511961722488 1440,200 C 1440,200 1440,400 1440,400 Z");
+                }
+                75%{
+                  d: path("M 0,400 C 0,400 0,200 0,200 C 116.27751196172247,231.74162679425837 232.55502392344494,263.48325358851673 313,255 C 393.44497607655506,246.51674641148324 438.0574162679426,197.80861244019144 538,178 C 637.9425837320574,158.19138755980856 793.2153110047848,167.28229665071768 898,168 C 1002.7846889952152,168.71770334928232 1057.0813397129186,161.0622009569378 1139,165 C 1220.9186602870814,168.9377990430622 1330.4593301435407,184.4688995215311 1440,200 C 1440,200 1440,400 1440,400 Z");
+                }
+                100%{
+                  d: path("M 0,400 C 0,400 0,200 0,200 C 109.50239234449762,220.1531100478469 219.00478468899524,240.3062200956938 302,222 C 384.99521531100476,203.6937799043062 441.48325358851673,146.9282296650718 528,129 C 614.5167464114833,111.07177033492822 731.0622009569377,131.98086124401914 839,158 C 946.9377990430623,184.01913875598086 1046.267942583732,215.14832535885168 1145,223 C 1243.732057416268,230.85167464114832 1341.8660287081339,215.42583732057415 1440,200 C 1440,200 1440,400 1440,400 Z");
+                }
+              }</style><path d="M 0,400 C 0,400 0,200 0,200 C 109.50239234449762,220.1531100478469 219.00478468899524,240.3062200956938 302,222 C 384.99521531100476,203.6937799043062 441.48325358851673,146.9282296650718 528,129 C 614.5167464114833,111.07177033492822 731.0622009569377,131.98086124401914 839,158 C 946.9377990430623,184.01913875598086 1046.267942583732,215.14832535885168 1145,223 C 1243.732057416268,230.85167464114832 1341.8660287081339,215.42583732057415 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#9900efff" class="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg> -->          
+                
+              <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
+                .path-0{
+                  animation:pathAnim-0 4s;
+                  animation-timing-function: linear;
+                  animation-iteration-count: infinite;
+                }
+                @keyframes pathAnim-0{
+                  0%{
+                    d: path("M 0,400 C 0,400 0,200 0,200 C 55.4393679148059,233.50738577808312 110.8787358296118,267.01477155616624 178,265 C 245.1212641703882,262.98522844383376 323.9244245963587,225.4482995534181 398,226 C 472.0755754036413,226.5517004465819 541.4235657849536,265.1920302301615 607,268 C 672.5764342150464,270.8079697698385 734.381312263827,237.7835795259361 807,211 C 879.618687736173,184.2164204740639 963.0511851597389,163.67365166609414 1040,151 C 1116.948814840261,138.32634833390586 1187.4139470972173,133.5218138096874 1253,143 C 1318.5860529027827,152.4781861903126 1379.2930264513914,176.2390930951563 1440,200 C 1440,200 1440,400 1440,400 Z");
+                  }
+                  25%{
+                    d: path("M 0,400 C 0,400 0,200 0,200 C 83.40707660597732,216.24115424252835 166.81415321195465,232.48230848505668 227,210 C 287.18584678804535,187.51769151494332 324.15046375815876,126.31192030230159 381,135 C 437.84953624184124,143.6880796976984 514.5839917554105,222.2700103057369 592,227 C 669.4160082445895,231.7299896942631 747.5135692201993,162.6080384747509 813,141 C 878.4864307798007,119.39196152524909 931.3617313637926,145.29783579525937 1004,153 C 1076.6382686362074,160.70216420474063 1169.0395053246307,150.20061834421162 1245,155 C 1320.9604946753693,159.79938165578838 1380.4802473376847,179.89969082789418 1440,200 C 1440,200 1440,400 1440,400 Z");
+                  }
+                  50%{
+                    d: path("M 0,400 C 0,400 0,200 0,200 C 67.97526623153556,189.66197183098592 135.9505324630711,179.3239436619718 211,181 C 286.0494675369289,182.6760563380282 368.1731363792511,196.3661971830986 442,182 C 515.8268636207489,167.6338028169014 581.3569220199245,125.2112676056338 638,150 C 694.6430779800755,174.7887323943662 742.3991755410512,266.7887323943662 807,259 C 871.6008244589488,251.2112676056338 953.0463758158708,143.63380281690138 1020,137 C 1086.9536241841292,130.36619718309862 1139.4153211954656,224.67605633802816 1207,252 C 1274.5846788045344,279.32394366197184 1357.2923394022673,239.66197183098592 1440,200 C 1440,200 1440,400 1440,400 Z");
+                  }
+                  75%{
+                    d: path("M 0,400 C 0,400 0,200 0,200 C 79.00515286843009,191.78838886980418 158.01030573686018,183.5767777396084 236,164 C 313.9896942631398,144.4232222603916 390.96392992098936,113.48127791137068 448,139 C 505.03607007901064,164.51872208862932 542.1339745791824,246.49811061490894 615,246 C 687.8660254208176,245.50188938509106 796.5001717622808,162.52627962899348 860,160 C 923.4998282377192,157.47372037100652 941.8653383716937,235.39677086911712 994,247 C 1046.1346616283063,258.6032291308829 1132.0384747509447,203.88663689453796 1212,185 C 1291.9615252490553,166.11336310546204 1365.9807626245276,183.05668155273102 1440,200 C 1440,200 1440,400 1440,400 Z");
+                  }
+                  100%{
+                   d: path("M 0,400 C 0,400 0,200 0,200 C 55.4393679148059,233.50738577808312 110.8787358296118,267.01477155616624 178,265 C 245.1212641703882,262.98522844383376 323.9244245963587,225.4482995534181 398,226 C 472.0755754036413,226.5517004465819 541.4235657849536,265.1920302301615 607,268 C 672.5764342150464,270.8079697698385 734.381312263827,237.7835795259361 807,211 C 879.618687736173,184.2164204740639 963.0511851597389,163.67365166609414 1040,151 C 1116.948814840261,138.32634833390586 1187.4139470972173,133.5218138096874 1253,143 C 1318.5860529027827,152.4781861903126 1379.2930264513914,176.2390930951563 1440,200 C 1440,200 1440,400 1440,400 Z");
+                }
+              }</style><defs><linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="5%" stop-color="#002bdcff"></stop><stop offset="95%" stop-color="#32ded4ff"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,200 0,200 C 55.4393679148059,233.50738577808312 110.8787358296118,267.01477155616624 178,265 C 245.1212641703882,262.98522844383376 323.9244245963587,225.4482995534181 398,226 C 472.0755754036413,226.5517004465819 541.4235657849536,265.1920302301615 607,268 C 672.5764342150464,270.8079697698385 734.381312263827,237.7835795259361 807,211 C 879.618687736173,184.2164204740639 963.0511851597389,163.67365166609414 1040,151 C 1116.948814840261,138.32634833390586 1187.4139470972173,133.5218138096874 1253,143 C 1318.5860529027827,152.4781861903126 1379.2930264513914,176.2390930951563 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg>                
+                    
+     
+             <!-- <svg width="100%" height="100%" id="gradient" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
+                       .path-0{
+                         animation:pathAnim-0 4s;
+                         animation-timing-function: linear;
+                         animation-iteration-count: infinite;
+                       }
+                       @keyframes pathAnim-0{
+                         0%{
+              d: path("M 0,500 C 0,500 0,250 0,250 C 96.94736842105263,278.7942583732057 193.89473684210526,307.58851674641147 281,308 C 368.10526315789474,308.41148325358853 445.3684210526317,280.4401913875598 530,292 C 614.6315789473683,303.5598086124402 706.6315789473683,354.65071770334924 826,330 C 945.3684210526317,305.34928229665076 1092.1052631578946,204.95693779904306 1199,179 C 1305.8947368421054,153.04306220095694 1372.9473684210527,201.52153110047846 1440,250 C 1440,250 1440,500 1440,500 Z");
+                         }
+                         25%{
+              d: path("M 0,500 C 0,500 0,250 0,250 C 127.75119617224877,222.755980861244 255.50239234449754,195.51196172248802 333,199 C 410.49760765550246,202.48803827751198 437.7416267942584,236.7081339712919 533,224 C 628.2583732057416,211.2918660287081 791.5311004784687,151.65550239234454 910,172 C 1028.4688995215313,192.34449760765546 1102.1339712918661,292.6698564593301 1183,319 C 1263.8660287081339,345.3301435406699 1351.933014354067,297.665071770335 1440,250 C 1440,250 1440,500 1440,500 Z");
+                         }
+                         50%{
+              d: path("M 0,500 C 0,500 0,250 0,250 C 103.60765550239236,202.1818181818182 207.21531100478472,154.36363636363635 305,165 C 402.7846889952153,175.63636363636365 494.7464114832535,244.7272727272727 573,271 C 651.2535885167465,297.2727272727273 715.7990430622011,280.72727272727275 814,270 C 912.2009569377989,259.27272727272725 1044.0574162679425,254.36363636363637 1154,252 C 1263.9425837320575,249.63636363636363 1351.9712918660289,249.8181818181818 1440,250 C 1440,250 1440,500 1440,500 Z");
+                         }
+                         75%{
+              d: path("M 0,500 C 0,500 0,250 0,250 C 67.16746411483251,245.6937799043062 134.33492822966502,241.38755980861242 240,266 C 345.665071770335,290.6124401913876 489.82775119617236,344.14354066985646 606,324 C 722.1722488038276,303.85645933014354 810.3540669856458,210.03827751196178 888,197 C 965.6459330143542,183.96172248803822 1032.755980861244,251.70334928229664 1123,274 C 1213.244019138756,296.29665071770336 1326.622009569378,273.1483253588517 1440,250 C 1440,250 1440,500 1440,500 Z");
+                         }
+                         100%{
+              d: path("M 0,500 C 0,500 0,250 0,250 C 96.94736842105263,278.7942583732057 193.89473684210526,307.58851674641147 281,308 C 368.10526315789474,308.41148325358853 445.3684210526317,280.4401913875598 530,292 C 614.6315789473683,303.5598086124402 706.6315789473683,354.65071770334924 826,330 C 945.3684210526317,305.34928229665076 1092.1052631578946,204.95693779904306 1199,179 C 1305.8947368421054,153.04306220095694 1372.9473684210527,201.52153110047846 1440,250 C 1440,250 1440,500 1440,500 Z");
+                         }
+                       }</style><defs><linearGradient id="gradient" x1="2%" y1="65%" x2="98%" y2="35%"><stop offset="5%" stop-color="#00d084ff"></stop><stop offset="95%" stop-color="#0693e3ff"></stop></linearGradient></defs><path d="M 0,500 C 0,500 0,250 0,250 C 96.94736842105263,278.7942583732057 193.89473684210526,307.58851674641147 281,308 C 368.10526315789474,308.41148325358853 445.3684210526317,280.4401913875598 530,292 C 614.6315789473683,303.5598086124402 706.6315789473683,354.65071770334924 826,330 C 945.3684210526317,305.34928229665076 1092.1052631578946,204.95693779904306 1199,179 C 1305.8947368421054,153.04306220095694 1372.9473684210527,201.52153110047846 1440,250 C 1440,250 1440,500 1440,500 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg> -->              
+                
+                
+           <div id="pro-footer-top">
+               
+               <ion-icon class="pftic" name="logo-alipay"></ion-icon>
+               <ion-icon class="pftic" name="logo-amazon"></ion-icon>
+               <ion-icon class="pftic" name="logo-amplify"></ion-icon>
+               <ion-icon class="pftic" name="logo-android"></ion-icon>
+               <ion-icon class="pftic" name="logo-angular"></ion-icon>
+               <ion-icon class="pftic" name="logo-apple"></ion-icon>
+               <ion-icon class="pftic" name="logo-apple-appstore"></ion-icon>
+               <ion-icon class="pftic" name="logo-bitcoin"></ion-icon>
+               <ion-icon class="pftic" name="logo-chrome"></ion-icon>
+               <ion-icon class="pftic" name="logo-discord"></ion-icon>
+               <ion-icon class="pftic" name="logo-dropbox"></ion-icon>
+               <ion-icon class="pftic" name="logo-electron"></ion-icon>
+               <ion-icon class="pftic" name="logo-facebook"></ion-icon>
+               <ion-icon class="pftic" name="logo-figma"></ion-icon>
+               <ion-icon class="pftic" name="logo-github"></ion-icon>
+               <ion-icon class="pftic" name="logo-google"></ion-icon>
+               <ion-icon class="pftic" name="logo-google-playstore"></ion-icon>
+               <ion-icon class="pftic" name="logo-instagram"></ion-icon>
+               <ion-icon class="pftic" name="logo-nodejs"></ion-icon>
+               <ion-icon class="pftic" name="logo-npm"></ion-icon>
+               <ion-icon class="pftic" name="logo-paypal"></ion-icon>
+               <ion-icon class="pftic" name="logo-pinterest"></ion-icon>
+               <ion-icon class="pftic" name="logo-pwa"></ion-icon>
+               <ion-icon class="pftic" name="logo-python"></ion-icon>
+               <ion-icon class="pftic" name="logo-react"></ion-icon>
+               <ion-icon class="pftic" name="logo-reddit"></ion-icon>
+               <ion-icon class="pftic" name="logo-sass"></ion-icon>
+               <ion-icon class="pftic" name="logo-stackoverflow"></ion-icon>
+               <ion-icon class="pftic" name="logo-tiktok"></ion-icon>
+               <ion-icon class="pftic" name="logo-tux"></ion-icon>
+               <ion-icon class="pftic" name="logo-twitter"></ion-icon>
+               <ion-icon class="pftic" name="logo-windows"></ion-icon>
+               <ion-icon class="pftic" name="logo-youtube"></ion-icon>
+               <ion-icon class="pftic" name="logo-apple"></ion-icon>
+               <ion-icon class="pftic" name="logo-apple-appstore"></ion-icon>
+               <ion-icon class="pftic" name="logo-bitcoin"></ion-icon>
+               <ion-icon class="pftic" name="logo-chrome"></ion-icon>
+               <ion-icon class="pftic" name="logo-discord"></ion-icon>
+               <ion-icon class="pftic" name="logo-dropbox"></ion-icon>
+               <ion-icon class="pftic" name="logo-electron"></ion-icon>
+               <ion-icon class="pftic" name="logo-facebook"></ion-icon>
+               <ion-icon class="pftic" name="logo-figma"></ion-icon>
+               <ion-icon class="pftic" name="logo-github"></ion-icon>
+               <ion-icon class="pftic" name="logo-google"></ion-icon>
+               <ion-icon class="pftic" name="logo-google-playstore"></ion-icon>
+               <ion-icon class="pftic" name="logo-instagram"></ion-icon>
+               <ion-icon class="pftic" name="logo-nodejs"></ion-icon>
+               <ion-icon class="pftic" name="logo-npm"></ion-icon>
+               <ion-icon class="pftic" name="logo-paypal"></ion-icon>
+               <ion-icon class="pftic" name="logo-pinterest"></ion-icon>
+               <ion-icon class="pftic" name="logo-pwa"></ion-icon>
+               <ion-icon class="pftic" name="logo-python"></ion-icon>
+               <ion-icon class="pftic" name="logo-react"></ion-icon>
+               <ion-icon class="pftic" name="logo-reddit"></ion-icon>
+               <ion-icon class="pftic" name="logo-sass"></ion-icon>
+               <ion-icon class="pftic" name="logo-stackoverflow"></ion-icon>
+               <ion-icon class="pftic" name="logo-tiktok"></ion-icon>
+               <ion-icon class="pftic" name="logo-tux"></ion-icon>
+               <ion-icon class="pftic" name="logo-twitter"></ion-icon>
+               <ion-icon class="pftic" name="logo-windows"></ion-icon>
+               <ion-icon class="pftic" name="logo-youtube"></ion-icon>
+               <ion-icon class="pftic" name="logo-apple"></ion-icon>
+               <ion-icon class="pftic" name="logo-apple-appstore"></ion-icon>
+               <ion-icon class="pftic" name="logo-bitcoin"></ion-icon>
+               <ion-icon class="pftic" name="logo-chrome"></ion-icon>
+               <ion-icon class="pftic" name="logo-discord"></ion-icon>
+               <ion-icon class="pftic" name="logo-dropbox"></ion-icon>
+               <ion-icon class="pftic" name="logo-electron"></ion-icon>
+               <ion-icon class="pftic" name="logo-facebook"></ion-icon>
+               <ion-icon class="pftic" name="logo-figma"></ion-icon>
+               <ion-icon class="pftic" name="logo-github"></ion-icon>
+               <ion-icon class="pftic" name="logo-google"></ion-icon>
+               <ion-icon class="pftic" name="logo-google-playstore"></ion-icon>
+               <ion-icon class="pftic" name="logo-instagram"></ion-icon>
+               <ion-icon class="pftic" name="logo-nodejs"></ion-icon>
+               <ion-icon class="pftic" name="logo-npm"></ion-icon>
+               <ion-icon class="pftic" name="logo-paypal"></ion-icon>
+               <ion-icon class="pftic" name="logo-pinterest"></ion-icon>
+               <ion-icon class="pftic" name="logo-pwa"></ion-icon>
+               <ion-icon class="pftic" name="logo-python"></ion-icon>
+               <ion-icon class="pftic" name="logo-react"></ion-icon>
+               <ion-icon class="pftic" name="logo-reddit"></ion-icon>
+               <ion-icon class="pftic" name="logo-sass"></ion-icon>
+               <ion-icon class="pftic" name="logo-stackoverflow"></ion-icon>
+               <ion-icon class="pftic" name="logo-tiktok"></ion-icon>
+               <ion-icon class="pftic" name="logo-tux"></ion-icon>
+               <ion-icon class="pftic" name="logo-twitter"></ion-icon>
+               <ion-icon class="pftic" name="logo-windows"></ion-icon>
+               <ion-icon class="pftic" name="logo-youtube"></ion-icon>
+               <ion-icon class="pftic" name="logo-apple"></ion-icon>
+               <ion-icon class="pftic" name="logo-apple-appstore"></ion-icon>
+               <ion-icon class="pftic" name="logo-bitcoin"></ion-icon>
+               <ion-icon class="pftic" name="logo-chrome"></ion-icon>
+               <ion-icon class="pftic" name="logo-discord"></ion-icon>
+               <ion-icon class="pftic" name="logo-dropbox"></ion-icon>
+               <ion-icon class="pftic" name="logo-electron"></ion-icon>
+               <ion-icon class="pftic" name="logo-facebook"></ion-icon>
+               <ion-icon class="pftic" name="logo-figma"></ion-icon>
+               <ion-icon class="pftic" name="logo-github"></ion-icon>
+               <ion-icon class="pftic" name="logo-google"></ion-icon>
+               <ion-icon class="pftic" name="logo-google-playstore"></ion-icon>
+               <ion-icon class="pftic" name="logo-instagram"></ion-icon>
+               <ion-icon class="pftic" name="logo-nodejs"></ion-icon>
+               <ion-icon class="pftic" name="logo-npm"></ion-icon>
+               <ion-icon class="pftic" name="logo-paypal"></ion-icon>
+               <ion-icon class="pftic" name="logo-pinterest"></ion-icon>
+               <ion-icon class="pftic" name="logo-pwa"></ion-icon>
+               <ion-icon class="pftic" name="logo-python"></ion-icon>
+               <ion-icon class="pftic" name="logo-react"></ion-icon>
+               <ion-icon class="pftic" name="logo-reddit"></ion-icon>
+               <ion-icon class="pftic" name="logo-sass"></ion-icon>
+               <ion-icon class="pftic" name="logo-stackoverflow"></ion-icon>
+               <ion-icon class="pftic" name="logo-tiktok"></ion-icon>
+               <ion-icon class="pftic" name="logo-tux"></ion-icon>
+               <ion-icon class="pftic" name="logo-twitter"></ion-icon>
+               <ion-icon class="pftic" name="logo-windows"></ion-icon>
+               <ion-icon class="pftic" name="logo-youtube"></ion-icon>
+               <ion-icon class="pftic" name="logo-dropbox"></ion-icon>
+               <ion-icon class="pftic" name="logo-electron"></ion-icon>
+               <ion-icon class="pftic" name="logo-facebook"></ion-icon>
+               <ion-icon class="pftic" name="logo-figma"></ion-icon>
+               <ion-icon class="pftic" name="logo-github"></ion-icon>
+               <ion-icon class="pftic" name="logo-google"></ion-icon>
+               <ion-icon class="pftic" name="logo-google-playstore"></ion-icon>
+               <ion-icon class="pftic" name="logo-instagram"></ion-icon>
+               <ion-icon class="pftic" name="logo-nodejs"></ion-icon>
+               <ion-icon class="pftic" name="logo-npm"></ion-icon>
+               <ion-icon class="pftic" name="logo-paypal"></ion-icon>
+               <ion-icon class="pftic" name="logo-pinterest"></ion-icon>
+               <ion-icon class="pftic" name="logo-pwa"></ion-icon>
+               <ion-icon class="pftic" name="logo-python"></ion-icon>
+               <ion-icon class="pftic" name="logo-react"></ion-icon>
+               <ion-icon class="pftic" name="logo-reddit"></ion-icon>
+               <ion-icon class="pftic" name="logo-sass"></ion-icon>
+               <ion-icon class="pftic" name="logo-stackoverflow"></ion-icon>
+               <ion-icon class="pftic" name="logo-tiktok"></ion-icon>
+               <ion-icon class="pftic" name="logo-tux"></ion-icon>
+               <ion-icon class="pftic" name="logo-twitter"></ion-icon>
+               <ion-icon class="pftic" name="logo-windows"></ion-icon>
+               <ion-icon class="pftic" name="logo-youtube"></ion-icon>
+               
+               
+               
+               
+               
+               
+           </div>
+                
+           <div id="pro_footer_main-contant">
+               
+              <!--      .pfmc dn#pfmc dn${ item$ }@5*8   --> 
+               
+               
+               
+               <div class="pfmc dn" id="pfmc dn1">
+                    <strong>LetTheWorkBeDone</strong>
+                    <ul class="list-group pfm" >
+                        <li class="pfmli">An item</li>
+                        <li class="pfmli">A second item</li>
+                        <li class="pfmli">A third item</li>
+                        <li class="pfmli">A fourth item</li>
+                        <li class="pfmli">And a fifth one</li>
+                    </ul>
+                    
+               </div>
+               
+               <div class="pfmc dn" id="pfmc dn1">
+                    <strong>LetTheWorkBeDone</strong>
+                    <div class="pfm" >
+                        <li class="pfmli">An item</li>
+                        <li class="pfmli">A second item</li>
+                        <li class="pfmli">A third item</li>
+                        <li class="pfmli">A fourth item</li>
+                        <li class="pfmli">And a fifth one</li>
+                    </div>
+                    
+               </div>
+    
+               <div class="pfmc dn" id="pfmc dn1">
+                    <strong>LetTheWorkBeDone</strong>
+                    <ul class="list-group pfm" >
+                        <li class="pfmli">An item</li>
+                        <li class="pfmli">A second item</li>
+                        <li class="pfmli">A third item</li>
+                        <li class="pfmli">A fourth item</li>
+                        <li class="pfmli">And a fifth one</li>
+                    </ul>
+                    
+               </div>
+               
+               <div class="pfmc dn" id="pfmc dn1">
+                    <strong>LetTheWorkBeDone</strong>
+                    <div class="pfm" >
+                        <li class="pfmli">An item</li>
+                        <li class="pfmli">A second item</li>
+                        <li class="pfmli">A third item</li>
+                        <li class="pfmli">A fourth item</li>
+                        <li class="pfmli">And a fifth one</li>
+                    </div>
+                    
+               </div>
+               <div class="pfmc dn" id="pfmc dn1">
+                    <strong>LetTheWorkBeDone</strong>
+                    <ul class="list-group pfm" >
+                        <li class="pfmli">An item</li>
+                        <li class="pfmli">A second item</li>
+                        <li class="pfmli">A third item</li>
+                        <li class="pfmli">A fourth item</li>
+                        <li class="pfmli">And a fifth one</li>
+                    </ul>
+                    
+               </div>
+               
+               <div class="pfmc dn" id="pfmc dn1">
+                    <strong>LetTheWorkBeDone</strong>
+                    <div class="pfm" >
+                        <li class="pfmli">An item</li>
+                        <li class="pfmli">A second item</li>
+                        <li class="pfmli">A third item</li>
+                        <li class="pfmli">A fourth item</li>
+                        <li class="pfmli">And a fifth one</li>
+                    </div>
+                    
+               </div>
+               <div class="pfmc dn" id="pfmc dn1">
+                    <strong>LetTheWorkBeDone</strong>
+                    <ul class="list-group pfm" >
+                        <li class="pfmli">An item</li>
+                        <li class="pfmli">A second item</li>
+                        <li class="pfmli">A third item</li>
+                        <li class="pfmli">A fourth item</li>
+                        <li class="pfmli">And a fifth one</li>
+                    </ul>
+                    
+               </div>
+               
+               <div class="pfmc dn" id="pfmc dn1">
+                    <strong>LetTheWorkBeDone</strong>
+                    <div class="pfm" >
+                        <li class="pfmli">An item</li>
+                        <li class="pfmli">A second item</li>
+                        <li class="pfmli">A third item</li>
+                        <li class="pfmli">A fourth item</li>
+                        <li class="pfmli">And a fifth one</li>
+                    </div>
+                    
+               </div>
+               
+               
+               <div id="toggle-mb">
+                   
+                    <ion-icon class="tm" name="logo-alipay"></ion-icon>
+                    
+               </div>
+               
+               
+               
+               
+               
+               
+           </div>
+           
+            
+            <div id="copyright" class="bg-light">
+                <div id="line"></div>
+                <strong>©️Copyright from LetTheWorkBeDone</strong>
+                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At optio soluta harum dolor animi perspiciatis vel fugit aperiam officia voluptatem.</h1>
+                
+            </div>
+            
+        </footer>
+        
+</div>
+<!-- ///////////////////////////////// Main End/////////////////////////////////////-->
+
+    
+    
+    
+    
+    
+    
+    
 
 
 
@@ -34,13 +830,6 @@
 
 
 
-<ul class="dropdown-menu">
-  <li><a class="dropdown-item" href="#">Action</a></li>
-  <li><a class="dropdown-item" href="#">Another action</a></li>
-  <li><a class="dropdown-item" href="#">Something else here</a></li>
-  <li><hr class="dropdown-divider"></li>
-  <li><a class="dropdown-item" href="#">Separated link</a></li>
-</ul>
 
 
 
@@ -61,6 +850,32 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="#">Data</a></li>
+      </ol>
+    </nav>
+  </div>
+</nav> -->
 
 
 
@@ -76,7 +891,7 @@
 
 
     <script type="module" src="../ux/globals.js" charset="utf-8"></script>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
 
 
     <!-- <script src="script.js"></script> -->
@@ -89,5 +904,8 @@
     <script type="module" 1 src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     
+    <!--Project-->
+    <!-- <script type="module" src="../ux/globals.js" charset="utf-8"></script> -->
 </body>
 </html>
+                                                                                                                                                                                                                                                                                                                                                
