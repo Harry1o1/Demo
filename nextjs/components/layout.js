@@ -23,13 +23,11 @@ export default function Layout({ children }) {
       
       
       <Script
-        type="module" 
-        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
         strategy="beforeInteractive"
       />
       <Script
-        nomodule 
-        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
         strategy="beforeInteractive"
       />
       
