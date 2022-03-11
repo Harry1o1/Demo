@@ -21,7 +21,7 @@ body{
 .container{
     background: green;
     position: relative;
-    max-width: 430px;
+    max-width: 360px;
     width: 100%;
     background: #fff;
     border-radius: 10px;
