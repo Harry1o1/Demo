@@ -12,7 +12,7 @@ function Pc1() {
             <ion-icon name="menu-outline" />
           </div>
           <div id="pntlc">
-            <h1> Freelancrs </h1>
+            <h1>LetWorkBeDone</h1>
           </div>
           <div id="pntcc">
             <div className="pnti mb" id="tools"> 
@@ -29,8 +29,9 @@ function Pc1() {
             </div>
           </div>
           <div id="pntrc">
-            <div className="pnti" id="upload">
-              <ion-icon name="cloud-upload-outline" />
+            <div className="pnti" id="cart">
+                <ion-icon name="cart-outline"></ion-icon>    
+            
             </div>
             <div className="pnti" id="notifications">
               <ion-icon name="notifications-outline" />
