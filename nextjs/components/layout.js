@@ -21,10 +21,18 @@ export default function Layout({ children }) {
 
       {/* Testing🖖🖖🖖 */}
       
+      
       <Script
-        type="module" src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs/ux/globals.js"
+        type="module" 
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
         strategy="beforeInteractive"
       />
+      <Script
+        nomodule 
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        strategy="beforeInteractive"
+      />
+      
             
           {children}
 
@@ -44,3 +52,11 @@ export default function Layout({ children }) {
   );
 };
 
+
+
+
+
+//       <Script
+        // type="module" src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs/education-website/assets/js/script.js"
+        // strategy="beforeInteractive"
+      />

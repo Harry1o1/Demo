@@ -29,7 +29,7 @@ const getEthereumContract = () => {
 
 
 
-const Home = () => {
+const Home1o1 = () => {
     
     const[ currentAccount, setCurrentAccount] = useState('')
 
@@ -188,7 +188,7 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Homepage1o1
 
 
 

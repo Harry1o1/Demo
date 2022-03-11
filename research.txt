@@ -1,32 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Educator - Online Courses & Education</title>
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/media_queries.css">
-  <link rel="stylesheet" href="./assets/css/animation.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700;800;900&family=Roboto:wght@400;500&display=swap"
-    rel="stylesheet">
-
-</head>
-
-<body>
-
   <!--
     - main container
   -->
@@ -42,19 +13,22 @@
       <nav class="navbar">
 
         <div class="navbar-brand">
-          <img src="./assets/images/logo.png" alt="Educator Logo">
+              <h1 class="h1">
+                  LetWorkBeDone
+              </h1>
+            
         </div>
 
         <ul class="navbar-nav">
 
           <li class="nav-item">
-            <a href="#home">Home</a>
+            <a href="#home">Top seller</a>
           </li>
           <li class="nav-item">
-            <a href="#about">About Us</a>
+            <a href="#about">Catagories</a>
           </li>
           <li class="nav-item">
-            <a href="#course">Courses</a>
+            <a href="#course">About us</a>
           </li>
           <li class="nav-item">
             <a href="#blog">Blog</a>
@@ -93,30 +67,27 @@
       <section class="home" id="home">
 
         <div class="deco-shape shape-1">
-          <img src="./assets/images/shape-1.png" alt="art shape" width="70">
+          <Image src="./shape-1.png" alt="art shape" width="70">
         </div>
         <div class="deco-shape shape-2">
-          <img src="./assets/images/shape-2.png" alt="art shape" width="55">
+          <Image src="./shape-2.png" alt="art shape" width="55">
         </div>
         <div class="deco-shape shape-3">
-          <img src="./assets/images/shape-3.png" alt="art shape" width="120">
+          <Image src="./shape-3.png" alt="art shape" width="120">
         </div>
         <div class="deco-shape shape-4">
-          <img src="./assets/images/shape-4.png" alt="art shape" width="30">
+          <Image src="./shape-4.png" alt="art shape" width="30">
         </div>
 
         <div class="home-left">
 
-          <p class="section-subtitle">Welcome To Online Coaching</p>
+          <p class="section-subtitle">Freelancing website <h1 class="grt">that makes bridge to</h1>Buyers and sellers</p>
 
           <h1 class="main-heading">
-            Get Class From Top
-            <span class="underline-img">Instructor <img src="./assets/images/banner-line.png" alt="line"></span>
+            Start checking
+            <span class="underline-Image">Sellers<Image src="./banner-line.png" alt="line"></span>
           </h1>
 
-          <p class="section-text">
-            Integer in magna in est ultrices bibendum eget enim et dui imperdiet faucibus. Fusce eu tristique felis.
-          </p>
 
           <div class="home-btn-group">
             <button class="btn btn-primary">
@@ -134,15 +105,15 @@
 
         <div class="home-right">
 
-          <div class="img-box">
+          <div class="Image-box">
 
-            <img src="./assets/images/banner-img-bg.png" alt="colorful background shape" class="background-shape">
-            <img src="./assets/images/banner-img.png" alt="banner image" class="banner-img">
+            <Image src="./banner-Image-bg.png" alt="colorful background shape" class="background-shape">
+            <Image src="./banner-Image.png" alt="banner image" class="banner-Image">
 
-            <img src="./assets/images/banner-aliment-icon-1.png" alt="" class="icon-1 smooth-zigzag-anim-1" width="250">
-            <img src="./assets/images/banner-aliment-icon-2.png" alt="" class="icon-2 smooth-zigzag-anim-2" width="240">
-            <img src="./assets/images/banner-aliment-icon-3.png" alt="" class="icon-3 smooth-zigzag-anim-3" width="195">
-            <img src="./assets/images/banner-aliment-icon-4.png" alt="" class="icon-4 drop-anim">
+            <Image src="./banner-aliment-icon-1.png" alt="Generator " class="icon-1 smooth-zigzag-anim-1" width="250">
+            <Image src="./banner-aliment-icon-2.png" alt="Generator " class="icon-2 smooth-zigzag-anim-2" width="240">
+            <Image src="./banner-aliment-icon-3.png" alt="Generator " class="icon-3 smooth-zigzag-anim-3" width="195">
+            <Image src="./banner-aliment-icon-4.png" alt="Generator " class="icon-4 drop-anim">
 
           </div>
 
@@ -160,18 +131,18 @@
 
       <section class="category">
 
-        <p class="section-subtitle">Course Category</p>
+        <p class="section-subtitle">Skills Category</p>
 
-        <h2 class="section-title">Explore Popular Courses</h2>
+        <h2 class="section-title">Skills Our Freelancers Have</h2>
 
         <ul class="course-item-group">
 
           <li class="course-category-item">
 
             <div class="wrapper">
-              <img src="./assets/images/course-category-icon-1.png" alt="category icon" class="category-icon default">
+              <Image src="./course-category-icon-1.png" alt="category icon" class="category-icon default">
 
-              <img src="./assets/images/course-category-icon-1-w.png" alt="category icon white"
+              <Image src="./course-category-icon-1-w.png" alt="category icon white"
                 class="category-icon hover">
             </div>
 
@@ -189,9 +160,9 @@
           <li class="course-category-item">
 
             <div class="wrapper">
-              <img src="./assets/images/course-category-icon-2.png" alt="category icon" class="category-icon default">
+              <Image src="./course-category-icon-2.png" alt="category icon" class="category-icon default">
 
-              <img src="./assets/images/course-category-icon-2-w.png" alt="category icon white"
+              <Image src="./course-category-icon-2-w.png" alt="category icon white"
                 class="category-icon hover">
             </div>
 
@@ -209,9 +180,9 @@
           <li class="course-category-item">
 
             <div class="wrapper">
-              <img src="./assets/images/course-category-icon-3.png" alt="category icon" class="category-icon default">
+              <Image src="./course-category-icon-3.png" alt="category icon" class="category-icon default">
 
-              <img src="./assets/images/course-category-icon-3-w.png" alt="category icon white"
+              <Image src="./course-category-icon-3-w.png" alt="category icon white"
                 class="category-icon hover">
             </div>
 
@@ -229,9 +200,9 @@
           <li class="course-category-item">
 
             <div class="wrapper">
-              <img src="./assets/images/course-category-icon-4.png" alt="category icon" class="category-icon default">
+              <Image src="./course-category-icon-4.png" alt="category icon" class="category-icon default">
 
-              <img src="./assets/images/course-category-icon-4-w.png" alt="category icon white"
+              <Image src="./course-category-icon-4-w.png" alt="category icon white"
                 class="category-icon hover">
             </div>
 
@@ -249,9 +220,9 @@
           <li class="course-category-item">
 
             <div class="wrapper">
-              <img src="./assets/images/course-category-icon-5.png" alt="category icon" class="category-icon default">
+              <Image src="./course-category-icon-5.png" alt="category icon" class="category-icon default">
 
-              <img src="./assets/images/course-category-icon-5-w.png" alt="category icon white"
+              <Image src="./course-category-icon-5-w.png" alt="category icon white"
                 class="category-icon hover">
             </div>
 
@@ -269,9 +240,9 @@
           <li class="course-category-item">
 
             <div class="wrapper">
-              <img src="./assets/images/course-category-icon-6.png" alt="category icon" class="category-icon default">
+              <Image src="./course-category-icon-6.png" alt="category icon" class="category-icon default">
 
-              <img src="./assets/images/course-category-icon-6-w.png" alt="category icon white"
+              <Image src="./course-category-icon-6-w.png" alt="category icon white"
                 class="category-icon hover">
             </div>
 
@@ -301,13 +272,13 @@
 
         <div class="about-left">
 
-          <div class="img-box">
-            <img src="./assets/images/about-img-bg.png" alt="about bg" class="about-bg">
+          <div class="Image-box">
+            <Image src="./about-Image-bg.png" alt="about bg" class="about-bg">
 
-            <img src="./assets/images/about-img.png" alt="about person" class="about-img">
+            <Image src="./about-Image.png" alt="about person" class="about-Image">
 
-            <img src="./assets/images/banner-aliment-icon-1.png" alt="" class="icon-1 smooth-zigzag-anim-1" width="250">
-            <img src="./assets/images/banner-aliment-icon-3.png" alt="" class="icon-2 smooth-zigzag-anim-3" width="195">
+            <Image src="./banner-aliment-icon-1.png" alt="Generator " class="icon-1 smooth-zigzag-anim-1" width="250">
+            <Image src="./banner-aliment-icon-3.png" alt="Generator " class="icon-2 smooth-zigzag-anim-3" width="195">
           </div>
 
         </div>
@@ -316,29 +287,29 @@
 
           <p class="section-subtitle">About Us</p>
 
-          <h2 class="section-title">We Have Best Online Education</h2>
+          <h2 class="section-title">We Have The Best Freelancing System</h2>
 
           <p class="section-text">
-            Morbi porttitor ligula id varius consectetur. Integer ipsum justo, congue sit amet massa vel, porttitor
-            semper magna.
-            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              We help you to make your freelancing cariare for innovative
+              And yet amazing 
+                            
           </p>
 
           <ul class="about-ul">
 
             <li>
               <ion-icon name="checkmark-circle"></ion-icon>
-              <p>Suspendisse nunc massa, pellentesque eu nibh eget.</p>
+              <p>Will be with you to 1levell seller to Topseller</p>
             </li>
 
             <li>
               <ion-icon name="checkmark-circle"></ion-icon>
-              <p>Suspendisse nunc massa, pellentesque eu nibh eget.</p>
+              <p>Chat and other offer to buyers</p>
             </li>
 
             <li>
               <ion-icon name="checkmark-circle"></ion-icon>
-              <p>Suspendisse nunc massa, pellentesque eu nibh eget.</p>
+              <p>We always be there when you need</p>
             </li>
 
           </ul>
@@ -362,16 +333,16 @@
 
       <section class="course" id="course">
 
-        <p class="section-subtitle">Our Online Courses</p>
+        <p class="section-subtitle">Get The Job Done</p>
 
-        <h2 class="section-title">Find The Right Online Course For You</h2>
+        <h2 class="section-title">Find The Right Offer For You</h2>
 
         <div class="course-grid">
 
           <div class="course-card">
 
             <div class="course-banner">
-              <img src="./assets/images/course-1.jpg" alt="course banner">
+              <Image src="./course-1.jpg" alt="course banner">
 
               <div class="course-tag-box">
                 <a href="#" class="badge-tag orange">Business</a>
@@ -388,7 +359,7 @@
               <div class="wrapper border-bottom">
 
                 <div class="author">
-                  <img src="./assets/images/course-instructor-img.jpg" alt="course instructor image" class="author-img">
+                  <Image src="./course-instructor-Image.jpg" alt="course instructor image" class="author-Image">
 
                   <a href="#" class="author-name">Lillian Wals</a>
                 </div>
@@ -405,7 +376,7 @@
 
                 <div class="enrolled">
                   <div class="icon-user">
-                    <img src="./assets/images/student-icon.png" alt="user icon">
+                    <Image src="./student-icon.png" alt="user icon">
                   </div>
 
                   <p>600k</p>
@@ -420,7 +391,7 @@
           <div class="course-card">
 
             <div class="course-banner">
-              <img src="./assets/images/course-2.jpg" alt="course banner">
+              <Image src="./course-2.jpg" alt="course banner">
 
               <div class="course-tag-box">
                 <a href="#" class="badge-tag orange">Business</a>
@@ -437,7 +408,7 @@
               <div class="wrapper border-bottom">
 
                 <div class="author">
-                  <img src="./assets/images/course-instructor-img.jpg" alt="course instructor image" class="author-img">
+                  <Image src="./course-instructor-Image.jpg" alt="course instructor image" class="author-Image">
 
                   <a href="#" class="author-name">Lillian Wals</a>
                 </div>
@@ -454,7 +425,7 @@
 
                 <div class="enrolled">
                   <div class="icon-user">
-                    <img src="./assets/images/student-icon.png" alt="user icon">
+                    <Image src="./student-icon.png" alt="user icon">
                   </div>
 
                   <p>545k</p>
@@ -469,7 +440,7 @@
           <div class="course-card">
 
             <div class="course-banner">
-              <img src="./assets/images/course-3.jpg" alt="course banner">
+              <Image src="./course-3.jpg" alt="course banner">
 
               <div class="course-tag-box">
                 <a href="#" class="badge-tag orange">Business</a>
@@ -486,7 +457,7 @@
               <div class="wrapper border-bottom">
 
                 <div class="author">
-                  <img src="./assets/images/course-instructor-img.jpg" alt="course instructor image" class="author-img">
+                  <Image src="./course-instructor-Image.jpg" alt="course instructor image" class="author-Image">
 
                   <a href="#" class="author-name">Lillian Wals</a>
                 </div>
@@ -503,7 +474,7 @@
 
                 <div class="enrolled">
                   <div class="icon-user">
-                    <img src="./assets/images/student-icon.png" alt="user icon">
+                    <Image src="./student-icon.png" alt="user icon">
                   </div>
 
                   <p>317k</p>
@@ -518,7 +489,7 @@
           <div class="course-card">
 
             <div class="course-banner">
-              <img src="./assets/images/course-4.jpg" alt="course banner">
+              <Image src="./course-4.jpg" alt="course banner">
 
               <div class="course-tag-box">
                 <a href="#" class="badge-tag orange">Business</a>
@@ -535,7 +506,7 @@
               <div class="wrapper border-bottom">
 
                 <div class="author">
-                  <img src="./assets/images/course-instructor-img.jpg" alt="course instructor image" class="author-img">
+                  <Image src="./course-instructor-Image.jpg" alt="course instructor image" class="author-Image">
 
                   <a href="#" class="author-name">Lillian Wals</a>
                 </div>
@@ -552,7 +523,7 @@
 
                 <div class="enrolled">
                   <div class="icon-user">
-                    <img src="./assets/images/student-icon.png" alt="user icon">
+                    <Image src="./student-icon.png" alt="user icon">
                   </div>
 
                   <p>891k</p>
@@ -568,7 +539,7 @@
           <div class="course-card">
 
             <div class="course-banner">
-              <img src="./assets/images/course-5.jpg" alt="course banner">
+              <Image src="./course-5.jpg" alt="course banner">
 
               <div class="course-tag-box">
                 <a href="#" class="badge-tag orange">Business</a>
@@ -585,7 +556,7 @@
               <div class="wrapper border-bottom">
 
                 <div class="author">
-                  <img src="./assets/images/course-instructor-img.jpg" alt="course instructor image" class="author-img">
+                  <Image src="./course-instructor-Image.jpg" alt="course instructor image" class="author-Image">
 
                   <a href="#" class="author-name">Lillian Wals</a>
                 </div>
@@ -602,7 +573,7 @@
 
                 <div class="enrolled">
                   <div class="icon-user">
-                    <img src="./assets/images/student-icon.png" alt="user icon">
+                    <Image src="./student-icon.png" alt="user icon">
                   </div>
 
                   <p>204k</p>
@@ -617,7 +588,7 @@
           <div class="course-card">
 
             <div class="course-banner">
-              <img src="./assets/images/course-6.jpg" alt="course banner">
+              <Image src="./course-6.jpg" alt="course banner">
 
               <div class="course-tag-box">
                 <a href="#" class="badge-tag orange">Business</a>
@@ -634,7 +605,7 @@
               <div class="wrapper border-bottom">
 
                 <div class="author">
-                  <img src="./assets/images/course-instructor-img.jpg" alt="course instructor image" class="author-img">
+                  <Image src="./course-instructor-Image.jpg" alt="course instructor image" class="author-Image">
 
                   <a href="#" class="author-name">Lillian Wals</a>
                 </div>
@@ -651,7 +622,7 @@
 
                 <div class="enrolled">
                   <div class="icon-user">
-                    <img src="./assets/images/student-icon.png" alt="user icon">
+                    <Image src="./student-icon.png" alt="user icon">
                   </div>
 
                   <p>1.3M</p>
@@ -665,7 +636,7 @@
         </div>
 
         <button class="btn btn-primary">
-          <p class="btn-text">View All Course</p>
+          <p class="btn-text">View All Gigs</p>
           <span class="square"></span>
         </button>
 
@@ -684,7 +655,7 @@
         <div class="event-left">
 
           <div class="event-banner">
-            <img src="./assets/images/event-img.jpg" alt="event banner" class="banner-img">
+            <Image src="./event-Image.jpg" alt="event banner" class="banner-Image">
           </div>
 
           <button class="play smooth-zigzag-anim-1">
@@ -699,9 +670,9 @@
 
         <div class="event-right">
 
-          <p class="section-subtitle">Our Events</p>
+          <p class="section-subtitle">Our Updates</p>
 
-          <h2 class="section-title">Join Our Upcoming Events</h2>
+          <h2 class="section-title">Join Our Upcoming Updates and Events</h2>
 
           <div class="event-card-group">
 
@@ -785,45 +756,42 @@
 
             <li class="features-item">
               <div class="item-icon-box blue">
-                <img src="./assets/images/feature-icon-1.png" alt="feature icon">
+                  😊
               </div>
 
               <div class="wrapper">
 
-                <h3 class="item-title">Student Life</h3>
+                <h3 class="item-title">Happy Buyer And Seller</h3>
 
-                <p class="item-text">Nulla vestibulum pretium nibh at dignissim. Aliquam vehicula consectetur dignissim
-                  dictum.</p>
+                <p class="item-text">We will try our best to make a bridge to Buyers and Sellers</p>
 
               </div>
             </li>
 
             <li class="features-item">
               <div class="item-icon-box pink">
-                <img src="./assets/images/feature-icon-2.png" alt="feature icon">
+                <Image src="./feature-icon-2.png" alt="feature icon">
               </div>
 
               <div class="wrapper">
 
-                <h3 class="item-title">Best Online Class</h3>
+                <h3 class="item-title">Communication with Buyers and Sellers</h3>
 
-                <p class="item-text">Nulla vestibulum pretium nibh at dignissim. Aliquam vehicula consectetur dignissim
-                  dictum.</p>
+                <p class="item-text">Communications is our most important priority</p>
 
               </div>
             </li>
 
             <li class="features-item">
               <div class="item-icon-box purple">
-                <img src="./assets/images/feature-icon-3.png" alt="feature icon">
+                <Image src="./feature-icon-3.png" alt="feature icon">
               </div>
 
               <div class="wrapper">
 
                 <h3 class="item-title">24x7 Program</h3>
 
-                <p class="item-text">Nulla vestibulum pretium nibh at dignissim. Aliquam vehicula consectetur dignissim
-                  dictum.</p>
+                <p class="item-text">We will 24×7 and continue helping you</p>
 
               </div>
             </li>
@@ -833,7 +801,7 @@
         </div>
 
         <div class="features-right">
-          <img src="./assets/images/coure-features-img.jpg" alt="core features image">
+          <Image src="./coure-features-Image.jpg" alt="core features image">
         </div>
 
       </section>
@@ -848,16 +816,16 @@
 
       <section class="instructor">
 
-        <p class="section-subtitle">Best Coach</p>
+        <p class="section-subtitle">Top sellers</p>
 
-        <h2 class="section-title">Our Expert Instructor</h2>
+        <h2 class="section-title">Our Expert Freelancers</h2>
 
         <div class="instructor-grid">
 
           <div class="instructor-card">
 
-            <div class="instructor-img-box">
-              <img src="./assets/images/instructor-1.jpg" alt="instructor louis sullivan">
+            <div class="instructor-Image-box">
+              <Image src="./instructor-1.jpg" alt="instructor louis sullivan">
 
               <div class="social-link">
                 <a href="#" class="facebook">
@@ -882,8 +850,8 @@
 
           <div class="instructor-card">
 
-            <div class="instructor-img-box">
-              <img src="./assets/images/instructor-2.jpg" alt="instructor camden david">
+            <div class="instructor-Image-box">
+              <Image src="./instructor-2.jpg" alt="instructor camden david">
 
               <div class="social-link">
                 <a href="#" class="facebook">
@@ -908,8 +876,8 @@
 
           <div class="instructor-card">
 
-            <div class="instructor-img-box">
-              <img src="./assets/images/instructor-3.jpg" alt="instructor fiona dean">
+            <div class="instructor-Image-box">
+              <Image src="./instructor-3.jpg" alt="instructor fiona dean">
 
               <div class="social-link">
                 <a href="#" class="facebook">
@@ -934,8 +902,8 @@
 
           <div class="instructor-card">
 
-            <div class="instructor-img-box">
-              <img src="./assets/images/instructor-4.jpg" alt="instructor cherish sosa">
+            <div class="instructor-Image-box">
+              <Image src="./instructor-4.jpg" alt="instructor cherish sosa">
 
               <div class="social-link">
                 <a href="#" class="facebook">
@@ -990,7 +958,7 @@
         <div class="testimonials-right">
 
           <div class="testimonials-card">
-            <img src="./assets/images/quote.png" alt="quote icon" class="quote-img">
+            <Image src="./quote.png" alt="quote icon" class="quote-Image">
 
             <p class="testimonials-text">
               "Proin feugiat tortor non neque eleifend, at fermentum est elementum. Ut mollis leo odio vulputate rutrum.
@@ -1002,8 +970,8 @@
 
             <div class="testimonials-client">
 
-              <div class="client-img-box">
-                <img src="./assets/images/client.jpg" alt="client christine rose">
+              <div class="client-Image-box">
+                <Image src="./client.jpg" alt="client christine rose">
               </div>
 
               <div class="client-detail">
@@ -1038,7 +1006,7 @@
           <div class="blog-card">
 
             <div class="blog-banner-box">
-              <img src="./assets/images/blog-1.jpg" alt="blog banner">
+              <Image src="./blog-1.jpg" alt="blog banner">
             </div>
 
             <div class="blog-content">
@@ -1050,13 +1018,13 @@
               <div class="wrapper">
 
                 <div class="blog-publish-date">
-                  <img src="./assets/images/calendar.png" alt="calendar icon">
+                  <Image src="./calendar.png" alt="calendar icon">
 
                   <a href="#">07 Jan, 2022</a>
                 </div>
 
                 <div class="blog-comment">
-                  <img src="./assets/images/comment.png" alt="comment icon">
+                  <Image src="./comment.png" alt="comment icon">
 
                   <a href="#">3 Comments</a>
                 </div>
@@ -1070,7 +1038,7 @@
           <div class="blog-card">
 
             <div class="blog-banner-box">
-              <img src="./assets/images/blog-2.jpg" alt="blog banner">
+              <Image src="./blog-2.jpg" alt="blog banner">
             </div>
 
             <div class="blog-content">
@@ -1082,13 +1050,13 @@
               <div class="wrapper">
 
                 <div class="blog-publish-date">
-                  <img src="./assets/images/calendar.png" alt="calendar icon">
+                  <Image src="./calendar.png" alt="calendar icon">
 
                   <a href="#">04 Jan, 2022</a>
                 </div>
 
                 <div class="blog-comment">
-                  <img src="./assets/images/comment.png" alt="comment icon">
+                  <Image src="./comment.png" alt="comment icon">
 
                   <a href="#">10 Comments</a>
                 </div>
@@ -1102,7 +1070,7 @@
           <div class="blog-card">
 
             <div class="blog-banner-box">
-              <img src="./assets/images/blog-3.jpg" alt="blog banner">
+              <Image src="./blog-3.jpg" alt="blog banner">
             </div>
 
             <div class="blog-content">
@@ -1114,13 +1082,13 @@
               <div class="wrapper">
 
                 <div class="blog-publish-date">
-                  <img src="./assets/images/calendar.png" alt="calendar icon">
+                  <Image src="./calendar.png" alt="calendar icon">
 
                   <a href="#">01 Jan, 2022</a>
                 </div>
 
                 <div class="blog-comment">
-                  <img src="./assets/images/comment.png" alt="comment icon">
+                  <Image src="./comment.png" alt="comment icon">
 
                   <a href="#">5 Comments</a>
                 </div>
@@ -1146,9 +1114,9 @@
       <section class="contact">
 
         <div class="contact-card" id="contact">
-          <img src="./assets/images/cta-bg-img.png" alt="shape" class="contact-card-bg">
+          <Image src="./cta-bg-Image.png" alt="shape" class="contact-card-bg">
 
-          <h2>Start Your Best Online Classes With Us</h2>
+          <h2>Start a new freelancing journey never before</h2>
 
           <button class="btn btn-primary">
             <p class="btn-text">Contact Us</p>
@@ -1175,13 +1143,13 @@
         <div class="grid-item">
 
           <div class="footer-logo">
-            <img src="./assets/images/logo-footer.png" alt="educator logo white">
+              <h1 class="h1">
+                  LetWorkBeDone
+              </h1>
           </div>
 
           <p class="footer-text">
-            Duis a tempor magna. Maecenas ligula felis, imperdiet quis arcu eget, blandit ultricies risus. Vivamus
-            fringilla urna
-            vel risus congue accumsan.
+            We are being better everyday for your support            
           </p>
 
           <div class="social-link">
@@ -1206,19 +1174,19 @@
           <h4 class="item-heading">Our Link</h4>
 
           <li class="list-item">
-            <a href="#home">Home</a>
+            <a href="#home">TopSeller</a>
           </li>
 
           <li class="list-item">
-            <a href="#about">About Us</a>
+            <a href="#about">Catagories</a>
           </li>
 
           <li class="list-item">
-            <a href="#course">Courses</a>
+            <a href="#course">Home</a>
           </li>
 
           <li class="list-item">
-            <a href="#blog">Blog</a>
+            <a href="#blog">About Us</a>
           </li>
 
           <li class="list-item">
@@ -1252,9 +1220,8 @@
           </li>
 
         </ul>
-
         <div class="grid-item">
-
+        
           <h4 class="item-heading">Subscribe Now</h4>
 
           <div class="wrapper">
@@ -1268,30 +1235,15 @@
         </div>
 
       </div>
-
+ 
+        <!-- <hr> -->
+        <div id="hr"></div>
+        
       <p class="copyright">
-        Copyright © 2022 <a href="#">codewithsadee</a>. All rights reserved.
+
+        Copyright © 2022 <a href="#">LetWorkBeDone</a>All rights reserved.
       </p>
 
     </footer>
 
   </div>
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
-</html>

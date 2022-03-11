@@ -21,7 +21,6 @@ body{
 
 
 .container{
-    background: green;
     position: relative;
     max-width: 330px;
     width: 100%;
@@ -34,7 +33,7 @@ body{
 
 .container .forms{
     
-    background: red;
+    /* background: red; */
     
     display: flex;
     align-items: center;
