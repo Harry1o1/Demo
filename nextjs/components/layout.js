@@ -20,20 +20,7 @@ export default function Layout({ children }) {
     <>
 
       {/* Testing🖖🖖🖖 */}
-      <Script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        strategy="beforeInteractive"
-      />
-
-      <Script
-        type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-        strategy="beforeInteractive"
-      />
-
-      <Script
-        type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-        strategy="beforeInteractive"
-      />
+      
       <Script
         type="module" src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs/ux/globals.js"
         strategy="beforeInteractive"
@@ -50,9 +37,6 @@ export default function Layout({ children }) {
 
         
         
-        
-        <link rel="stylesheet" href="https://unpkg.com/open-props"/>
-        <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
 
       </Head>
 
