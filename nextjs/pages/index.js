@@ -634,11 +634,11 @@ export default function Home() {
                 <div className="testimonials-card">
                   <Image src="./quote.png" alt="quote icon" className="quote-Image" />
                   <p className="testimonials-text">
-                    "Proin feugiat tortor non neque eleifend, at fermentum est elementum. Ut mollis leo odio vulputate rutrum.
+                    🥳Proin feugiat tortor non neque eleifend, at fermentum est elementum. Ut mollis leo odio vulputate rutrum.
                     Nunc sagittis
                     sit amet ligula ut eleifend. Mauris consequat mauris sit amet turpis commodo fermentum. Quisque consequat
                     tortor ut nisl
-                    finibus".
+                    finibus🥳
                   </p>
                   <div className="testimonials-client">
                     <div className="client-Image-box">
