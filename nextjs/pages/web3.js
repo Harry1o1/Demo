@@ -29,7 +29,7 @@ const getEthereumContract = () => {
 
 
 
-const Home1o1 = () => {
+const Homepage1o1 = () => {
     
     const[ currentAccount, setCurrentAccount] = useState('')
 
