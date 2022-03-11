@@ -63,22 +63,22 @@ export default function Home() {
         */}
             <section className="home" id="home">
               <div className="deco-shape shape-1">
-                <Image src="./shape-1.png" alt="art shape" width={70} />
+                <Image src="/shape-1.png" alt="art shape" width={70} />
               </div>
               <div className="deco-shape shape-2">
-                <Image src="./shape-2.png" alt="art shape" width={55} />
+                <Image src="/shape-2.png" alt="art shape" width={55} />
               </div>
               <div className="deco-shape shape-3">
-                <Image src="./shape-3.png" alt="art shape" width={120} />
+                <Image src="/shape-3.png" alt="art shape" width={120} />
               </div>
               <div className="deco-shape shape-4">
-                <Image src="./shape-4.png" alt="art shape" width={30} />
+                <Image src="/shape-4.png" alt="art shape" width={30} />
               </div>
               <div className="home-left">
                 <p className="section-subtitle">Freelancing website </p><h1 className="grt">that makes bridge to</h1>Buyers and sellers<p />
                 <h1 className="main-heading">
                   Start checking
-                  <span className="underline-Image">Sellers<Image src="./banner-line.png" alt="line" /></span>
+                  <span className="underline-Image">Sellers<Image src="/banner-line.png" alt="line" /></span>
                 </h1>
                 <div className="home-btn-group">
                   <button className="btn btn-primary">
@@ -93,12 +93,12 @@ export default function Home() {
               </div>
               <div className="home-right">
                 <div className="Image-box">
-                  <Image src="./banner-Image-bg.png" alt="colorful background shape" className="background-shape" />
-                  <Image src="./banner-Image.png" alt="banner image" className="banner-Image" />
-                  <Image src="./banner-aliment-icon-1.png" alt="Generator " className="icon-1 smooth-zigzag-anim-1" width={250} />
-                  <Image src="./banner-aliment-icon-2.png" alt="Generator " className="icon-2 smooth-zigzag-anim-2" width={240} />
-                  <Image src="./banner-aliment-icon-3.png" alt="Generator " className="icon-3 smooth-zigzag-anim-3" width={195} />
-                  <Image src="./banner-aliment-icon-4.png" alt="Generator " className="icon-4 drop-anim" />
+                  <Image src="/banner-Image-bg.png" alt="colorful background shape" className="background-shape" />
+                  <Image src="/banner-Image.png" alt="banner image" className="banner-Image" />
+                  <Image src="/banner-aliment-icon-1.png" alt="Generator " className="icon-1 smooth-zigzag-anim-1" width={250} />
+                  <Image src="/banner-aliment-icon-2.png" alt="Generator " className="icon-2 smooth-zigzag-anim-2" width={240} />
+                  <Image src="/banner-aliment-icon-3.png" alt="Generator " className="icon-3 smooth-zigzag-anim-3" width={195} />
+                  <Image src="/banner-aliment-icon-4.png" alt="Generator " className="icon-4 drop-anim" />
                 </div>
               </div>
             </section>
@@ -111,8 +111,8 @@ export default function Home() {
               <ul className="course-item-group">
                 <li className="course-category-item">
                   <div className="wrapper">
-                    <Image src="./course-category-icon-1.png" alt="category icon" className="category-icon default" />
-                    <Image src="./course-category-icon-1-w.png" alt="category icon white" className="category-icon hover" />
+                    <Image src="/course-category-icon-1.png" alt="category icon" className="category-icon default" />
+                    <Image src="/course-category-icon-1-w.png" alt="category icon white" className="category-icon hover" />
                   </div>
                   <div className="course-category-content">
                     <h3 className="category-title">
@@ -123,8 +123,8 @@ export default function Home() {
                 </li>
                 <li className="course-category-item">
                   <div className="wrapper">
-                    <Image src="./course-category-icon-2.png" alt="category icon" className="category-icon default" />
-                    <Image src="./course-category-icon-2-w.png" alt="category icon white" className="category-icon hover" />
+                    <Image src="/course-category-icon-2.png" alt="category icon" className="category-icon default" />
+                    <Image src="/course-category-icon-2-w.png" alt="category icon white" className="category-icon hover" />
                   </div>
                   <div className="course-category-content">
                     <h3 className="category-title">
@@ -135,8 +135,8 @@ export default function Home() {
                 </li>
                 <li className="course-category-item">
                   <div className="wrapper">
-                    <Image src="./course-category-icon-3.png" alt="category icon" className="category-icon default" />
-                    <Image src="./course-category-icon-3-w.png" alt="category icon white" className="category-icon hover" />
+                    <Image src="/course-category-icon-3.png" alt="category icon" className="category-icon default" />
+                    <Image src="/course-category-icon-3-w.png" alt="category icon white" className="category-icon hover" />
                   </div>
                   <div className="course-category-content">
                     <h3 className="category-title">
@@ -147,8 +147,8 @@ export default function Home() {
                 </li>
                 <li className="course-category-item">
                   <div className="wrapper">
-                    <Image src="./course-category-icon-4.png" alt="category icon" className="category-icon default" />
-                    <Image src="./course-category-icon-4-w.png" alt="category icon white" className="category-icon hover" />
+                    <Image src="/course-category-icon-4.png" alt="category icon" className="category-icon default" />
+                    <Image src="/course-category-icon-4-w.png" alt="category icon white" className="category-icon hover" />
                   </div>
                   <div className="course-category-content">
                     <h3 className="category-title">
@@ -159,8 +159,8 @@ export default function Home() {
                 </li>
                 <li className="course-category-item">
                   <div className="wrapper">
-                    <Image src="./course-category-icon-5.png" alt="category icon" className="category-icon default" />
-                    <Image src="./course-category-icon-5-w.png" alt="category icon white" className="category-icon hover" />
+                    <Image src="/course-category-icon-5.png" alt="category icon" className="category-icon default" />
+                    <Image src="/course-category-icon-5-w.png" alt="category icon white" className="category-icon hover" />
                   </div>
                   <div className="course-category-content">
                     <h3 className="category-title">
@@ -171,8 +171,8 @@ export default function Home() {
                 </li>
                 <li className="course-category-item">
                   <div className="wrapper">
-                    <Image src="./course-category-icon-6.png" alt="category icon" className="category-icon default" />
-                    <Image src="./course-category-icon-6-w.png" alt="category icon white" className="category-icon hover" />
+                    <Image src="/course-category-icon-6.png" alt="category icon" className="category-icon default" />
+                    <Image src="/course-category-icon-6-w.png" alt="category icon white" className="category-icon hover" />
                   </div>
                   <div className="course-category-content">
                     <h3 className="category-title">
@@ -189,10 +189,10 @@ export default function Home() {
             <section className="about" id="about">
               <div className="about-left">
                 <div className="Image-box">
-                  <Image src="./about-Image-bg.png" alt="about bg" className="about-bg" />
-                  <Image src="./about-Image.png" alt="about person" className="about-Image" />
-                  <Image src="./banner-aliment-icon-1.png" alt="Generator " className="icon-1 smooth-zigzag-anim-1" width={250} />
-                  <Image src="./banner-aliment-icon-3.png" alt="Generator " className="icon-2 smooth-zigzag-anim-3" width={195} />
+                  <Image src="/about-Image-bg.png" alt="about bg" className="about-bg" />
+                  <Image src="/about-Image.png" alt="about person" className="about-Image" />
+                  <Image src="/banner-aliment-icon-1.png" alt="Generator " className="icon-1 smooth-zigzag-anim-1" width={250} />
+                  <Image src="/banner-aliment-icon-3.png" alt="Generator " className="icon-2 smooth-zigzag-anim-3" width={195} />
                 </div>
               </div>
               <div className="about-right">
@@ -231,7 +231,7 @@ export default function Home() {
               <div className="course-grid">
                 <div className="course-card">
                   <div className="course-banner">
-                    <Image src="./course-1.jpg" alt="course banner" />
+                    <Image src="/course-1.jpg" alt="course banner" />
                     <div className="course-tag-box">
                       <a href="#" className="badge-tag orange">Business</a>
                       <a href="#" className="badge-tag blue">Marketing</a>
@@ -243,7 +243,7 @@ export default function Home() {
                     </h3>
                     <div className="wrapper border-bottom">
                       <div className="author">
-                        <Image src="./course-instructor-Image.jpg" alt="course instructor image" className="author-Image" />
+                        <Image src="/course-instructor-Image.jpg" alt="course instructor image" className="author-Image" />
                         <a href="#" className="author-name">Lillian Wals</a>
                       </div>
                       <div className="rating">
@@ -255,7 +255,7 @@ export default function Home() {
                       <div className="course-price">$50.00</div>
                       <div className="enrolled">
                         <div className="icon-user">
-                          <Image src="./student-icon.png" alt="user icon" />
+                          <Image src="/student-icon.png" alt="user icon" />
                         </div>
                         <p>600k</p>
                       </div>
@@ -264,7 +264,7 @@ export default function Home() {
                 </div>
                 <div className="course-card">
                   <div className="course-banner">
-                    <Image src="./course-2.jpg" alt="course banner" />
+                    <Image src="/course-2.jpg" alt="course banner" />
                     <div className="course-tag-box">
                       <a href="#" className="badge-tag orange">Business</a>
                       <a href="#" className="badge-tag blue">Marketing</a>
@@ -276,7 +276,7 @@ export default function Home() {
                     </h3>
                     <div className="wrapper border-bottom">
                       <div className="author">
-                        <Image src="./course-instructor-Image.jpg" alt="course instructor image" className="author-Image" />
+                        <Image src="/course-instructor-Image.jpg" alt="course instructor image" className="author-Image" />
                         <a href="#" className="author-name">Lillian Wals</a>
                       </div>
                       <div className="rating">
@@ -288,7 +288,7 @@ export default function Home() {
                       <div className="course-price">$80.00</div>
                       <div className="enrolled">
                         <div className="icon-user">
-                          <Image src="./student-icon.png" alt="user icon" />
+                          <Image src="/student-icon.png" alt="user icon" />
                         </div>
                         <p>545k</p>
                       </div>
@@ -297,7 +297,7 @@ export default function Home() {
                 </div>
                 <div className="course-card">
                   <div className="course-banner">
-                    <Image src="./course-3.jpg" alt="course banner" />
+                    <Image src="/course-3.jpg" alt="course banner" />
                     <div className="course-tag-box">
                       <a href="#" className="badge-tag orange">Business</a>
                       <a href="#" className="badge-tag blue">Marketing</a>
@@ -309,7 +309,7 @@ export default function Home() {
                     </h3>
                     <div className="wrapper border-bottom">
                       <div className="author">
-                        <Image src="./course-instructor-Image.jpg" alt="course instructor image" className="author-Image" />
+                        <Image src="/course-instructor-Image.jpg" alt="course instructor image" className="author-Image" />
                         <a href="#" className="author-name">Lillian Wals</a>
                       </div>
                       <div className="rating">
@@ -321,7 +321,7 @@ export default function Home() {
                       <div className="course-price">$29.90</div>
                       <div className="enrolled">
                         <div className="icon-user">
-                          <Image src="./student-icon.png" alt="user icon" />
+                          <Image src="/student-icon.png" alt="user icon" />
                         </div>
                         <p>317k</p>
                       </div>
@@ -330,7 +330,7 @@ export default function Home() {
                 </div>
                 <div className="course-card">
                   <div className="course-banner">
-                    <Image src="./course-4.jpg" alt="course banner" />
+                    <Image src="/course-4.jpg" alt="course banner" />
                     <div className="course-tag-box">
                       <a href="#" className="badge-tag orange">Business</a>
                       <a href="#" className="badge-tag blue">Marketing</a>
@@ -342,7 +342,7 @@ export default function Home() {
                     </h3>
                     <div className="wrapper border-bottom">
                       <div className="author">
-                        <Image src="./course-instructor-Image.jpg" alt="course instructor image" className="author-Image" />
+                        <Image src="/course-instructor-Image.jpg" alt="course instructor image" className="author-Image" />
                         <a href="#" className="author-name">Lillian Wals</a>
                       </div>
                       <div className="rating">
@@ -354,7 +354,7 @@ export default function Home() {
                       <div className="course-price">$49.90</div>
                       <div className="enrolled">
                         <div className="icon-user">
-                          <Image src="./student-icon.png" alt="user icon" />
+                          <Image src="/student-icon.png" alt="user icon" />
                         </div>
                         <p>891k</p>
                       </div>
@@ -363,7 +363,7 @@ export default function Home() {
                 </div>
                 <div className="course-card">
                   <div className="course-banner">
-                    <Image src="./course-5.jpg" alt="course banner" />
+                    <Image src="/course-5.jpg" alt="course banner" />
                     <div className="course-tag-box">
                       <a href="#" className="badge-tag orange">Business</a>
                       <a href="#" className="badge-tag blue">Marketing</a>
@@ -375,7 +375,7 @@ export default function Home() {
                     </h3>
                     <div className="wrapper border-bottom">
                       <div className="author">
-                        <Image src="./course-instructor-Image.jpg" alt="course instructor image" className="author-Image" />
+                        <Image src="/course-instructor-Image.jpg" alt="course instructor image" className="author-Image" />
                         <a href="#" className="author-name">Lillian Wals</a>
                       </div>
                       <div className="rating">
@@ -387,7 +387,7 @@ export default function Home() {
                       <div className="course-price">$89.00</div>
                       <div className="enrolled">
                         <div className="icon-user">
-                          <Image src="./student-icon.png" alt="user icon" />
+                          <Image src="/student-icon.png" alt="user icon" />
                         </div>
                         <p>204k</p>
                       </div>
@@ -396,7 +396,7 @@ export default function Home() {
                 </div>
                 <div className="course-card">
                   <div className="course-banner">
-                    <Image src="./course-6.jpg" alt="course banner" />
+                    <Image src="/course-6.jpg" alt="course banner" />
                     <div className="course-tag-box">
                       <a href="#" className="badge-tag orange">Business</a>
                       <a href="#" className="badge-tag blue">Marketing</a>
@@ -408,7 +408,7 @@ export default function Home() {
                     </h3>
                     <div className="wrapper border-bottom">
                       <div className="author">
-                        <Image src="./course-instructor-Image.jpg" alt="course instructor image" className="author-Image" />
+                        <Image src="/course-instructor-Image.jpg" alt="course instructor image" className="author-Image" />
                         <a href="#" className="author-name">Lillian Wals</a>
                       </div>
                       <div className="rating">
@@ -420,7 +420,7 @@ export default function Home() {
                       <div className="course-price">$199.00</div>
                       <div className="enrolled">
                         <div className="icon-user">
-                          <Image src="./student-icon.png" alt="user icon" />
+                          <Image src="/student-icon.png" alt="user icon" />
                         </div>
                         <p>1.3M</p>
                       </div>
@@ -439,7 +439,7 @@ export default function Home() {
             <section className="event">
               <div className="event-left">
                 <div className="event-banner">
-                  <Image src="./event-Image.jpg" alt="event banner" className="banner-Image" />
+                  <Image src="/event-Image.jpg" alt="event banner" className="banner-Image" />
                 </div>
                 <button className="play smooth-zigzag-anim-1">
                   <div className="play-icon pulse-anim">
@@ -513,7 +513,7 @@ export default function Home() {
                   </li>
                   <li className="features-item">
                     <div className="item-icon-box pink">
-                      <Image src="./feature-icon-2.png" alt="feature icon" />
+                      <Image src="/feature-icon-2.png" alt="feature icon" />
                     </div>
                     <div className="wrapper">
                       <h3 className="item-title">Communication with Buyers and Sellers</h3>
@@ -522,7 +522,7 @@ export default function Home() {
                   </li>
                   <li className="features-item">
                     <div className="item-icon-box purple">
-                      <Image src="./feature-icon-3.png" alt="feature icon" />
+                      <Image src="/feature-icon-3.png" alt="feature icon" />
                     </div>
                     <div className="wrapper">
                       <h3 className="item-title">24x7 Program</h3>
@@ -532,7 +532,7 @@ export default function Home() {
                 </ul>
               </div>
               <div className="features-right">
-                <Image src="./coure-features-Image.jpg" alt="core features image" />
+                <Image src="/coure-features-Image.jpg" alt="core features image" />
               </div>
             </section>
             {/*
@@ -544,7 +544,7 @@ export default function Home() {
               <div className="instructor-grid">
                 <div className="instructor-card">
                   <div className="instructor-Image-box">
-                    <Image src="./instructor-1.jpg" alt="instructor louis sullivan" />
+                    <Image src="/instructor-1.jpg" alt="instructor louis sullivan" />
                     <div className="social-link">
                       <a href="#" className="facebook">
                         <ion-icon name="logo-facebook" />
@@ -562,7 +562,7 @@ export default function Home() {
                 </div>
                 <div className="instructor-card">
                   <div className="instructor-Image-box">
-                    <Image src="./instructor-2.jpg" alt="instructor camden david" />
+                    <Image src="/instructor-2.jpg" alt="instructor camden david" />
                     <div className="social-link">
                       <a href="#" className="facebook">
                         <ion-icon name="logo-facebook" />
@@ -580,7 +580,7 @@ export default function Home() {
                 </div>
                 <div className="instructor-card">
                   <div className="instructor-Image-box">
-                    <Image src="./instructor-3.jpg" alt="instructor fiona dean" />
+                    <Image src="/instructor-3.jpg" alt="instructor fiona dean" />
                     <div className="social-link">
                       <a href="#" className="facebook">
                         <ion-icon name="logo-facebook" />
@@ -598,7 +598,7 @@ export default function Home() {
                 </div>
                 <div className="instructor-card">
                   <div className="instructor-Image-box">
-                    <Image src="./instructor-4.jpg" alt="instructor cherish sosa" />
+                    <Image src="/instructor-4.jpg" alt="instructor cherish sosa" />
                     <div className="social-link">
                       <a href="#" className="facebook">
                         <ion-icon name="logo-facebook" />
@@ -632,7 +632,7 @@ export default function Home() {
               </div>
               <div className="testimonials-right">
                 <div className="testimonials-card">
-                  <Image src="./quote.png" alt="quote icon" className="quote-Image" />
+                  <Image src="/quote.png" alt="quote icon" className="quote-Image" />
                   <p className="testimonials-text">
                     🥳Proin feugiat tortor non neque eleifend, at fermentum est elementum. Ut mollis leo odio vulputate rutrum.
                     Nunc sagittis
@@ -642,7 +642,7 @@ export default function Home() {
                   </p>
                   <div className="testimonials-client">
                     <div className="client-Image-box">
-                      <Image src="./client.jpg" alt="client christine rose" />
+                      <Image src="/client.jpg" alt="client christine rose" />
                     </div>
                     <div className="client-detail">
                       <h4 className="client-name">Christine Rose</h4>
@@ -661,7 +661,7 @@ export default function Home() {
               <div className="blog-grid">
                 <div className="blog-card">
                   <div className="blog-banner-box">
-                    <Image src="./blog-1.jpg" alt="blog banner" />
+                    <Image src="/blog-1.jpg" alt="blog banner" />
                   </div>
                   <div className="blog-content">
                     <h3 className="blog-title">
@@ -669,11 +669,11 @@ export default function Home() {
                     </h3>
                     <div className="wrapper">
                       <div className="blog-publish-date">
-                        <Image src="./calendar.png" alt="calendar icon" />
+                        <Image src="/calendar.png" alt="calendar icon" />
                         <a href="#">07 Jan, 2022</a>
                       </div>
                       <div className="blog-comment">
-                        <Image src="./comment.png" alt="comment icon" />
+                        <Image src="/comment.png" alt="comment icon" />
                         <a href="#">3 Comments</a>
                       </div>
                     </div>
@@ -681,7 +681,7 @@ export default function Home() {
                 </div>
                 <div className="blog-card">
                   <div className="blog-banner-box">
-                    <Image src="./blog-2.jpg" alt="blog banner" />
+                    <Image src="/blog-2.jpg" alt="blog banner" />
                   </div>
                   <div className="blog-content">
                     <h3 className="blog-title">
@@ -689,11 +689,11 @@ export default function Home() {
                     </h3>
                     <div className="wrapper">
                       <div className="blog-publish-date">
-                        <Image src="./calendar.png" alt="calendar icon" />
+                        <Image src="/calendar.png" alt="calendar icon" />
                         <a href="#">04 Jan, 2022</a>
                       </div>
                       <div className="blog-comment">
-                        <Image src="./comment.png" alt="comment icon" />
+                        <Image src="/comment.png" alt="comment icon" />
                         <a href="#">10 Comments</a>
                       </div>
                     </div>
@@ -701,7 +701,7 @@ export default function Home() {
                 </div>
                 <div className="blog-card">
                   <div className="blog-banner-box">
-                    <Image src="./blog-3.jpg" alt="blog banner" />
+                    <Image src="/blog-3.jpg" alt="blog banner" />
                   </div>
                   <div className="blog-content">
                     <h3 className="blog-title">
@@ -709,11 +709,11 @@ export default function Home() {
                     </h3>
                     <div className="wrapper">
                       <div className="blog-publish-date">
-                        <Image src="./calendar.png" alt="calendar icon" />
+                        <Image src="/calendar.png" alt="calendar icon" />
                         <a href="#">01 Jan, 2022</a>
                       </div>
                       <div className="blog-comment">
-                        <Image src="./comment.png" alt="comment icon" />
+                        <Image src="/comment.png" alt="comment icon" />
                         <a href="#">5 Comments</a>
                       </div>
                     </div>
@@ -726,7 +726,7 @@ export default function Home() {
         */}
             <section className="contact">
               <div className="contact-card" id="contact">
-                <Image src="./cta-bg-Image.png" alt="shape" className="contact-card-bg" />
+                <Image src="/cta-bg-Image.png" alt="shape" className="contact-card-bg" />
                 <h2>Start a new freelancing journey never before</h2>
                 <button className="btn btn-primary">
                   <p className="btn-text">Contact Us</p>

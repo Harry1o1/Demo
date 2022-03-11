@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function Homepage1o2() {
+export default function Homepage1() {
   return (
     <div className={styles.container}>
       <Head>
@@ -60,7 +60,7 @@ export default function Homepage1o2() {
         >
           Powered by{' '}
           <span className={styles.logo}>
-                <Image src="/vercel.svg" alt="Vercel Logo" width={72} />
+                <Image src="./vercel.svg" alt="Vercel Logo" width={72} />
           
           </span>
         </a>
