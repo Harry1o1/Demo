@@ -109,6 +109,8 @@ export default function Login_logout(){
         <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet' />
         <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs/pages-html/login.css" rel="stylesheet" />
 
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
         
         
         
