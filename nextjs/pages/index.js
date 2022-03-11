@@ -63,7 +63,7 @@ export default function Home1o1() {
         */}
             <section className="home" id="home">
               <div className="deco-shape shape-1">
-                <Image src="/shape-1.png" alt="art shape" width={300} height={300} placeholder='blur' layout="responsive"/>
+                <Image src="/shape-1.png" alt="art shape" width={300} height={300} layout="responsive"/>
               </div>
               <div className="deco-shape shape-2">
                 <Image src="/shape-2.png" alt="art shape" width={55} />
