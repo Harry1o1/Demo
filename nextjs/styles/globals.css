@@ -55,7 +55,7 @@
     #pc_navbar_left,
     #pro-navbartop-container,
     #pro_navbar_top,
-    #pro-navbartop-sidebar {
+    #pro-navbartop-sidebar,#wrapper2{
         display: none;
     }
     #pro-navbarbottom-container {
@@ -755,14 +755,36 @@
 
         z-index: 20000;
     }
-
+    /* #pntcg1 > *{
+        
+        background: red;
+        height: 2px;
+        width: 10px;
+        
+    } */
+    #pro_navbar_top > *::hover,.pntli::hover{
+        color: red;
+    }
+    #menu1{
+        
+        margin-bottom: 30px;
+        
+    }
+    #menu2{
+        
+        margin-top: 30px;
+    }
+    #menu3{
+        margin-bottom: 30px;
+        
+    }
     #pntcg1,
     #pntcg2 {
-
+        
         display: flex;
         align-items: center;
         justify-content: center;
-
+        
     }
 
     #pntcg1 ion-icon,
@@ -774,10 +796,59 @@
                      -43px -43px 100px #ffffff; */
         /* font-size: 2rem; */
         padding: 1.2rem 1.2rem;
-
-
+        
     }
-
+    #wrapper2{
+        
+        
+        background: red;
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+        column-gap: 10px;
+        /* flex-direction: column; */
+        
+        min-height: 7rem;
+        min-width: 30rem;
+        
+        position: fixed;
+        top: 10rem;
+        left: 10rem;
+        /* left: 10rem; */
+        /* top: 40rem; */
+        /* right: 30rem; */
+        z-index: 10000;
+        
+        display: none;
+    }
+    #wrapper2 ul{
+        
+        /* background: #5A67FF; */
+        min-height: 5rem;
+        width: 100%;
+    }
+    #wrapper2 ul li{
+        
+        background: hsla(287, 100%, 92%, 1);
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #wrapper2 ul li a{
+        
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+    }
+    
     #pntlc,
     #pntrc {
 
@@ -1550,7 +1621,7 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
      
-     font-size: 5rem;
+     font-size: 3rem;
      font-weight: 900;
      
  }
