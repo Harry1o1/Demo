@@ -40,7 +40,6 @@ export default function Layout({ children }) {
       />
 
 
-      <Navbar />
       {/* Page content */}
       <div id="pro-main-container">
         <div id="menu">
@@ -50,7 +49,6 @@ export default function Layout({ children }) {
         </div>
         
         {/* Sometimes not needed */}
-        <Footer1 />
       </div>
 
 
