@@ -369,7 +369,7 @@ html {
   position: relative;
   width: auto;
   max-width: 100%;
-  margin: auto;
+  margin-inline: auto;
   z-index: 2;
 }
 
