@@ -57,4 +57,4 @@ export default function Layout({ children }) {
 //       <Script
         // type="module" src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs/education-website/assets/js/script.js"
         // strategy="beforeInteractive"
-      />
+    //   />
