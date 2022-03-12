@@ -23,7 +23,7 @@ export default function Home1o1() {
      
     <div className={`${styles.image_wrapper1o1} bg-dark`}>
      
-                 <Image src="/shape-1.png" alt="art shape" width={30} height={50} id="img1o1"/>
+                 <Image src="/shape-1.png" className={`${styles.image1o1} rounded-circle`} alt="art shape" width={30} height={50} id="img1o1"/>
         </div>
  
      
