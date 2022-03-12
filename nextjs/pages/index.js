@@ -21,11 +21,10 @@ export default function Home1o1() {
      
         
      
+    <div className={` ${style.image_wrapper1o1} bg-dark`}>
      
-    <div id="image_wrapper1o1">
                  <Image src="/shape-1.png" alt="art shape" width={30} height={50} id="img1o1"/>
-
-</div>
+        </div>
  
      
      
