@@ -12,28 +12,34 @@
 } */
 
 
-#shade1{
+/* #shade1{
     
     max-width: 300px;    
-}
+} */
 
 
 
 
-#hero{
+/* #hero{
     
     max-width: 300px;    
     background: red;
     
-}
+} */
 
 
 
 
 
-#image_wrapper1o1 > #img{
+#image_wrapper1o1{
     
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: red;
     max-width: 300px;
     
 }
+
+
+
