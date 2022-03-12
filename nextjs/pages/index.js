@@ -64,7 +64,7 @@ export default function Home1o1() {
         */}
             <section className="home" id="home">
               <div className="deco-shape shape-1">
-                <Image src="/shape-1.png" alt="art shape" width={30} height={30} />
+                <Image src="/shape-1.png" alt="art shape" width={30} height={30} id='shade1'/>
               </div>
               <div className="deco-shape shape-2">
                 <Image src="/shape-2.png" alt="art shape" width={30} height={30} />
