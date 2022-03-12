@@ -31,8 +31,12 @@
 
 
 
-#img1o1{
+.img1o1{
     
     position: relative;
-    top: 5rem;
+    top: 10rem;
+    
+    border-radius: 50%;    
+    border: 2px solid #000000;
+    
 }
