@@ -848,7 +848,7 @@ export default function Home1o1() {
         
         <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs//education-website/assets/css/animation.css" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs//education-website/assets/css/media_queries.css" rel="stylesheet" />
-        <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs//education-website/assets/css/style.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs//education-website/assets/css/style1o1.css" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs//education-website/assets/css/variable.css" rel="stylesheet" />
 
         
