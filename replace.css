@@ -1,0 +1,10 @@
+#box{
+    
+    background: red;
+    
+    height: 50px;
+    width: 100px;
+    
+    
+    transform: translateX(90);
+}
