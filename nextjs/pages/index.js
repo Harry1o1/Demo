@@ -21,7 +21,7 @@ export default function Home1o1() {
      
         
      
-    <div className={` ${style.image_wrapper1o1} bg-dark`}>
+    <div className={`${styles.image_wrapper1o1} bg-dark`}>
      
                  <Image src="/shape-1.png" alt="art shape" width={30} height={50} id="img1o1"/>
         </div>
@@ -52,6 +52,7 @@ export default function Home1o1() {
         <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs//education-website/assets/css/style1o1.css" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs//education-website/assets/css/variable.css" rel="stylesheet" />
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
         
         
         
