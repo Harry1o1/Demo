@@ -63,16 +63,16 @@ export default function Home1o1() {
         */}
             <section className="home" id="home">
               <div className="deco-shape shape-1">
-                <Image src="/shape-1.png" alt="art shape" width={300} height={300} />
+                <Image src="/shape-1.png" alt="art shape" width={30} height={30} />
               </div>
               <div className="deco-shape shape-2">
-                <Image src="/shape-2.png" alt="art shape" width={55} />
+                <Image src="/shape-2.png" alt="art shape" width={30} height={30} />
               </div>
               <div className="deco-shape shape-3">
-                <Image src="/shape-3.png" alt="art shape" width={120} />
+                <Image src="/shape-3.png" alt="art shape" width={30} height={30}/>
               </div>
               <div className="deco-shape shape-4">
-                <Image src="/shape-4.png" alt="art shape" width={30} />
+                <Image src="/shape-4.png" alt="art shape" width={30} height={30} />
               </div>
               <div className="home-left">
                 <p className="section-subtitle">Freelancing website </p><h1 className="grt">that makes bridge to</h1>Buyers and sellers<p />
