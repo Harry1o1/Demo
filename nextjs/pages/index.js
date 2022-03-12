@@ -19,7 +19,7 @@ export default function Home1o1() {
             - main container
           */}
           
-        <div className="container">
+        <div className="container" id="hero">
           {/*
         - #HEADER
             */}
@@ -64,7 +64,10 @@ export default function Home1o1() {
         */}
             <section className="home" id="home">
               <div className="deco-shape shape-1">
-                <Image src="/shape-1.png" alt="art shape" width={30} height={30} id='shade1'/>
+              <div id="image_wrapper1o1">
+                <Image id="img" src="/shape-1.png" alt="art shape" width={30} height={30} id='shade1'/>
+    
+</div>
               </div>
               <div className="deco-shape shape-2">
                 <Image src="/shape-2.png" alt="art shape" width={30} height={30} />
