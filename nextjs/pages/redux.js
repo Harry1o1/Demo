@@ -8,8 +8,7 @@ function App() {
             <Image
                   src="logo.svg"
                   alt="Picture of the author"
-                  width={500}
-                  height={500}
+                  layout='responsive'
             />
         <Counter />
         <p>
