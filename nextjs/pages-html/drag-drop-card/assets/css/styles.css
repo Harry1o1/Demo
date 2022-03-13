@@ -46,23 +46,36 @@ img{
 
 .drop{
   height: 100vh;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 
 .drop__container{
+    /* background: red; */
+    min-width: 360px;
+    height: 35rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* overflow: hidden; */
   row-gap: 1rem;
   padding: 2rem;
   box-shadow: 4px 4px 16px #E1E1E1;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .drop__card, .drop__data{
+    
+  /* background: red; */
   display: flex;
   align-items: center;
 }
 
 .drop__card{
-  width: 360px;
+  width: 320px;
   justify-content: space-between;
   padding: .75rem 1.25rem .75rem .75rem;
   background-color: var(--first-color-lighten);
