@@ -81,19 +81,19 @@
     
     #hero,#menu {
         
-        min-height: 100vh;
-        width: 100%;
+        min-height: 200vh !important;
+        width: 100% !important;
         
     }
     #pro-main-container {
         
+        min-height: 300vh !important;
         /* background: red; */
         position: relative;
         top: 7.5rem;
         left: 0;
         
     }
-    
     
     /* ====== Mb navbar Top ====== */
     #mb_navbartop_brand {
@@ -142,7 +142,7 @@
         display: grid;
         /* grid-template-rows: 5rem; */
         place-items: center;
-        grid-template-columns: 2fr 0.8fr 0.8fr 10fr 0.8fr 0.8fr 2fr;
+        grid-template-columns: 2fr 0.8fr 10fr 0.8fr 2fr;
         /* grid-template-columns: 2fr 0.5 150px 0.5 2fr; */
         /* grid-template-columns: 1fr; */
         /* display: flex; */
@@ -1511,6 +1511,32 @@
      
      color: var(--ion-icon) !important;
  }
+ 
+ 
+ 
+ 
+ 
+ footer{
+     
+     position: absolute;
+     bottom: 0;
+     
+     
+     width: 100%;
+   
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 /*///////////////////////////////  
                     Never give up,
                             Stand by me Doraemon
