@@ -6,6 +6,7 @@
         /* ===== Colors ===== */
         --body-color: #E4E9F7;
         --sidebar-color: #FFF;
+        --footer-color: #F3F6FF;
         --primary-color: #695CFE;
         --primary-color-light: #F6F5FF;
         --toggle-color: #DDD;
@@ -38,6 +39,7 @@
         --navbar-top-bg: #242526;
         
         --ion-icon: #FFFFFF;        
+        --footer-color: #1F1F1F;
         
     }
     * {
@@ -703,6 +705,10 @@
                      -43px -43px 100px #ffffff; */
         /* font-size: 2rem; */
         padding: 0 1.5rem;
+        
+        /* height: 1rem; */
+        /* width: 1rem; */
+        
         
     }
     #wrapper2{
@@ -1675,7 +1681,7 @@ h2, .nav-tittle, .footer-nav-item, .flex
  
 footer{
     
-    background: var(--sidebar-color) !important;
+    background: var(--footer-color) !important;
     border-top: 1px solid var(--ion-icon) !important;
     /* display: flex !important; */
     /* align-items: center !important; */
@@ -1701,7 +1707,10 @@ footer{
     
 }
 
-
+.nav-toggle-btn span{
+    
+    background: var(--ion-icon) !important;
+}
 
 /*///////////////////////////////  
                     Never give up,

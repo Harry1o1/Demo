@@ -54,21 +54,21 @@ let html = d('html'),
 if (toggle != null && sidebar != null && modeSwitch != null && modeText != null && op != null && drop_downon !=  null && drop_down != null) {
     console.log('toggle');
     
-    drop_down.addEventListener('click', ()=> {
-        // drop_downon.style.display=block;
-        // drop_downoff.style.display=none;
-        console.log('op');
+    // drop_down.addEventListener('click', ()=> {
+    //     // drop_downon.style.display=block;
+    //     // drop_downoff.style.display=none;
+    //     console.log('op');
         
         
         
-    })
-    drop_down.addEventListener('click', ()=> {
-        console.log('op');
-        drop_downon.style.display='none';
-        drop_downoff.style.display='block';
+    // })
+    // drop_down.addEventListener('click', ()=> {
+    //     console.log('op');
+    //     drop_downon.style.display='none';
+    //     drop_downoff.style.display='block';
         
 
-    })
+    // })
     
     
 }

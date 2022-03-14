@@ -73,9 +73,9 @@ html {
 }
 
 .navbar-nav {
-  position: absolute;
+  position: fixed;
   background: var(--white);
-  top: calc(100% + 40px);
+  top: ;
   left:  30px;
   right: 30px;
   text-align: center;
@@ -125,9 +125,9 @@ html {
 .nav-toggle-btn {
   /* background: var(--red-orange-color-wheel); */
   /* background: hsla(0, 0%, 95%, 1); */
-  background: #000000;
-  width:  50px;
-  height: 50px;
+  /* background: #000000; */
+  /* width:  50px; */
+  /* height: 50px; */
   border-radius: 8px;
   display:         flex;
   flex-direction:  column;
@@ -148,6 +148,40 @@ html {
 .nav-toggle-btn.active .two { display: none; }
 
 .nav-toggle-btn.active .three { transform: rotate(-45deg) translate(2px, -2px); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
