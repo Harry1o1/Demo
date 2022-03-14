@@ -793,7 +793,7 @@
         /* box-shadow:  43px 43px 100px #828282,
                      -43px -43px 100px #ffffff; */
 
-        padding: 0.7rem 1rem;
+        padding: 1rem 1rem;
 
     }
 
@@ -1633,7 +1633,7 @@
  
  
  
- ion-icon{
+ ion-icon, .footer-nav .nav-title, .mobile-navigation-menu.active, .mobile-navigation-menu{
      
      color: var(--ion-icon) !important;
  }
@@ -1663,8 +1663,46 @@
  
  
  
+h2, .nav-tittle, .footer-nav-item, .flex
+{
+    
+    /* color: red !important; */
+    display: flex !important;
+    align-items: left !important;
+    
+}    
  
  
+footer{
+    
+    background: var(--sidebar-color) !important;
+    border-top: 1px solid var(--ion-icon) !important;
+    /* display: flex !important; */
+    /* align-items: center !important; */
+    /* justify-content: center !important; */
+    
+} 
+
+
+
+.mobile-navigation-menu.active, .mobile-navigation-menu,.mobile-navigation-menu > *, a.social-link{
+    background: var(--sidebar-color) !important;
+     color: var(--ion-icon) !important;
+    
+    
+}
+
+
+
+
+*{
+     color: var(--ion-icon) !important;
+    
+    
+}
+
+
+
 /*///////////////////////////////  
                     Never give up,
                             Stand by me Doraemon
