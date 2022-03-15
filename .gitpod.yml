@@ -19,6 +19,10 @@ tasks:
     
   - name: Nextjs 
     command: cd nextjs && npm i && npm run dev
+    
+    
+  - name: Express
+    command: cd express && npm i && npm run dev
 
       
       

@@ -12,7 +12,7 @@ const mobileMenuOpenBtn = document.querySelectorAll('[data-mobile-menu-open-btn]
 const mobileMenu = document.querySelectorAll('[data-mobile-menu]');
 const mobileMenuCloseBtn = document.querySelectorAll('[data-mobile-menu-close-btn]');
 const overlay = document.querySelector('[data-overlay]');
-
+let close_btn = document.querySelector('menu-close-btn')
 for (let i = 0; i < mobileMenuOpenBtn.length; i++) {
 
   // mobile menu function
@@ -28,6 +28,7 @@ for (let i = 0; i < mobileMenuOpenBtn.length; i++) {
 
   mobileMenuCloseBtn.addEventListener('click', mobileMenuCloseFunc);
   overlay.addEventListener('click', mobileMenuCloseFunc);
+  close_btn().addEventListener('click', mobileMenuCloseFunc);
 
 }
 
