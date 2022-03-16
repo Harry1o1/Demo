@@ -6,7 +6,7 @@ let r=document.querySelector(':root');
     let form = document.querySelector('.forms');
     let cdrop = document.querySelector('.circle');
  let rs = getComputedStyle(r);
-  console.log(rs);
+//   console.log(rs);
 
 
 // let join_signup_toggle = document.querySelectorAll('.join_signup_toggle'),
@@ -18,7 +18,6 @@ let r=document.querySelector(':root');
     
     
 /*=============== SHOW JOIN/SIGNUP ===============*/
-    console.log('DOM fully loaded and parsed');
     
     
     
