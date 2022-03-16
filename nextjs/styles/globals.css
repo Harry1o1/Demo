@@ -4,7 +4,7 @@
     
     :root {
         /* ===== Colors ===== */
-        --body-color: #E4E9F7;
+        --body-color: hsla(224, 54%, 93%, 1);
         --sidebar-color: #FFF;
         --footer-color: #F3F6FF;
         --primary-color: #695CFE;
@@ -85,6 +85,7 @@
     }
     html,body {
         
+        
         min-height: 100vh;
         width: 100%;
         
@@ -92,6 +93,8 @@
     
     
     #hero,#menu {
+        
+        background: var(--primary-color);
         
         min-height: 200vh !important;
         width: 100% !important;
@@ -1838,7 +1841,10 @@ li { list-style: none !important; }
     /* body{
         display: none;
     } */
-    
+    :root{
+        
+        --slider-left: -0px;
+    }
     
     
     #pro-toolbar{
@@ -1882,7 +1888,7 @@ li { list-style: none !important; }
         
         background: #ADFF85;
         
-        transform: translateX(-20px);
+        transform: translateX(var(--slider-left));
         
     }
     .arrows{

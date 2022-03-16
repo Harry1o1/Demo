@@ -14,7 +14,7 @@ const da = (e)=> {
     return document.querySelectorAll(e);
 }
 
-
+let r = d(':root');
 let html = d('html'),
     body = d('body'),
     sidebar = d('#pro-navbartop-sidebar'),
@@ -29,7 +29,7 @@ let html = d('html'),
     l_arrow=d('#left-arrow'),
     r_arrow=d('#right-arrow'),
     ptli=d('.ptli')
-    
+
     
 
 
@@ -60,76 +60,61 @@ let html = d('html'),
 
 if (toggle != null && sidebar != null && modeSwitch != null && modeText != null && op != null && drop_downon !=  null && drop_down != null && arrows != null) {
     console.log('toggle');
-    // let index = 0; 
-    // drop_down.addEventListener('click', ()=> {
-    //     // drop_downon.style.display=block;
-    //     // drop_downoff.style.display=none;
-    //     console.log('op');
-        
-        
-        
-    // })
-    // drop_down.addEventListener('click', ()=> {
-    //     console.log('op');
-    //     drop_downon.style.display='none';
-    //     drop_downoff.style.display='block';
-        
 
-    // })
+        let a = 0;
+        let b = 0;
+        // let result;
+        // result = 0;
+
+        // a++;
+        // b++;
     
-    
-    
-    // arrows.dblclick = () => {
-    //     console.log('op');
-    // }
     window.addEventListener('dblclick', ()=>{
         // console.log('op');
     })
-    l_arrow.addEventListener('click',()=>{
+    const arrow_right = ()=> {
         
-        // let index = index !== 0 ? index-1 : 2;
-        // let indexf = () => {
-        //     let index = 1;
-        //     index++;
+        a++;
+        if (a > 73) {
+            a = 73;
+            // console.log('op');
             
-        //     console.log(index);
-        //     return index;
+        }
+        
+        r.style.setProperty('--slider-left',`-${ a*30 }px`);
+        // console.log(result);
+        // console.log(a);
+        // return result;
+    }
+    const arrow_left = ()=> {
+        let leftarrow_guideline        
+        a--;
+        // let decress = a * 40;
+        // leftarrow_guideline = result;
+        // leftarrow_guideline = result - 50;
+        if (a < 1) {
+            a = 1;
+            // console.log('op');
+            
+        }
+        
+        r.style.setProperty('--slider-left',`-${ a*30 }px`);
+        // console.log(a);
+        // console.log(leftarrow_guideline);
+        // result=`-${a * 30}`;
+        // if (result < -2190) {
+        //     result = -2180;
         // }
-        // indexf();
-        // console.log('l');
-        // console.log(indexf);
-        // indexf();
-        // ptli.style.translateX='10%';
-        // ptli.style.backgroundr='green';
-        // ptli.style.display='none';
         
-        body.style.background='red';
-        body.style.transform='translateY(-40px)';
-        ptli.style.transform='translateX(-150px)';
+        // r.style.setProperty('--slider-left',`${result}px`);
+        // console.log(result);
         
-        // arrows.style.background='red';
-        
-        // console.log(ptli);
-        // ptli.onfocus=()=>{
-        //     console.log('op');
-        // 
-        // console.log('op');
-        
-    })
-    r_arrow.addEventListener('click',()=>{
-        // let index = 0;
-        // let index = index !== 0 ? index+1 : 0;
-        
-        // console.log(index);
-        body.style.background='yellow';
-        body.style.transform='translateY(40px)';
-        ptli.style.transform='translateX(90%)';
-        
-        console.log('r');
-        ptli.style.translateX='-70px';
-        
-    })
+    }
+    r_arrow.addEventListener('click',arrow_right,false);
+    l_arrow.addEventListener('click',arrow_left,false);
     
+    
+    arrow_right();
     
 }
 else{
@@ -140,18 +125,8 @@ else{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+// myFunction_get();
 
 // Others😅😅😅
-console.log(body.clientHeight);
-Robin('Hello Robin bro')
+// console.log(body.clientHeight);
+// Robin('Hello Robin bro')
