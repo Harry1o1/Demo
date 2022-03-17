@@ -74,6 +74,30 @@ body{
     z-index: 3;
 }
 
+.nav-toggle-btn {
+    background: #0F23FF;
+  border-radius: 8px;
+  display:         flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items:     center;
+  gap: 6px;
+}
+
+.nav-toggle-btn span {
+  background: #FFFFFF;
+  width: 30px;
+  height: 2px;
+  transition: var(--default-transition);
+}
+
+.nav-toggle-btn.active .one { transform: rotate(45deg) translate(3px, 3px); } 
+
+.nav-toggle-btn.active .two { display: none; }
+
+.nav-toggle-btn.active .three { transform: rotate(-45deg) translate(2px, -2px); }
+
+
 
 
 
