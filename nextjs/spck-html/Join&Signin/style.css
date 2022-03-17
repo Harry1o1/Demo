@@ -81,6 +81,9 @@ body{
     /* display: none !important; */
     /* display: block !important; */
     background: hsla(144, 0%, 100%, 1);
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
     display: flex;
     animation: menuPopup 0.5s ease forwards;
     overflow-x: hidden;
@@ -220,9 +223,7 @@ input{
     
     background: #FFFFFF;
     border: 1px solid #eaeaea;
-    /* -webkit-border-radius: 14px; */
-    /* -moz-border-radius: 14px; */
-    /* border-radius: 14px; */
+    
     
     
     width: 100%;
@@ -240,7 +241,11 @@ input{
 
 #social_login_header{
     
+    /* border: 1px solid #eaeaea; */
     background: hsla(170, 0%, 100%, 1);
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 5px;
     min-height: 5rem;
     width: 100%;
     

@@ -159,7 +159,10 @@ git config --list
 ```
 
 
-
+### An important git command
+```bash
+git config --global alias.st status
+```
 
 
 
