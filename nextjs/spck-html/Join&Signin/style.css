@@ -266,7 +266,6 @@ input{
     
     display: none;
     
-    background: hsla(333, 0%, 100%, 1);
     min-height: 10rem;
     width: 90%;
     margin-inline: auto;
@@ -289,7 +288,7 @@ input{
 } */
 #join-signin_container.scale #social_login_toolbar{
     
-    background: #7AFFC9;
+    background: #DFDFDF;
     
     display: flex;
     align-items: center;
