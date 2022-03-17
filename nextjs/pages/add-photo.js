@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 // models.URLField(max_length = 200) 
 
-function Addpost() {
+function AddPhoto() {
     const [post, setPost] = useState('dfv')
     const [picture, setPicture] = useState(null);
 
