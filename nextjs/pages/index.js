@@ -1,9 +1,35 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { motion } from 'framer-motion';
+
+
+
+
 
 export default function Home() {
   return (
+    <>  
+    <motion.div initial="hidden" animate="visible" variants={{
+  hidden: {
+    scale: .8,
+    opacity: 0
+  },
+  visible: {
+    scale: 1,
+    opacity: 1,
+    transition: {
+      delay: .4
+    }
+  },
+}}>
+  <h1 className="title">
+   Hello framermotion!
+  </h1>
+</motion.div>
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
@@ -13,7 +39,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Todo!</a>
+          Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
@@ -33,7 +59,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
             <h2>Examples &rarr;</h2>
@@ -65,5 +91,7 @@ export default function Home() {
         </a>
       </footer>
     </div>
+    
+    </>
   )
 }

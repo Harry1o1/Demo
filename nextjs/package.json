@@ -1,5 +1,6 @@
 {
-  "name": "frontend",
+  "name": "nextjs1o1",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,24 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@apollo/client": "^3.5.6",
-    "@mui/material": "^5.2.4",
-    "@reduxjs/toolkit": "^1.7.1",
-    "axios": "^0.24.0",
-    "boostrap": "^2.0.0",
-    "ethers": "^5.5.2",
-    "graphql": "^16.1.0",
-    "next": "12.0.7",
+    "framer-motion": "^6.2.8",
+    "next": "12.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-moralis": "^0.3.11",
-    "react-redux": "^7.2.6",
-    "redux": "^4.1.2",
-    "swr": "^1.1.2-beta.0",
-    "web3": "^1.6.1"
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "eslint": "8.4.1",
-    "eslint-config-next": "12.0.7"
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
   }
 }
