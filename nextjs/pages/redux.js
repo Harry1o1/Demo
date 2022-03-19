@@ -8,8 +8,8 @@ function App() {
             <Image
                   src="logo.svg"
                   alt="Picture of the author"
-                  height={50}
-                  weight={50}
+                  width={500}
+                  height={500}
             />
         <Counter />
         <p>

@@ -1,5 +1,178 @@
     @mixin navbar2-pc{
         /* The sidebar Top menu */
+        #pc_navbar_top {
+            
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            
+            /* display: grid; */
+            /* grid-template-rows: 1fr 1fr; */
+            /* grid-template-columns: 10px 10px 100px 10px 10px 10px 10px 10px; */
+             
+            background: #FFFFFF;
+            color: #FFFFFF;
+            border-radius: 0px;
+            background: #e0e0e0;
+            box-shadow:  20px 20px 45px #b1b1b1,
+                         -20px -20px 45px #ffffff;
+            
+            /* min-height: 5vh; */
+            width: 100%;
+            
+            padding: 1.5rem;
+            
+            position: fixed;
+            /* position: relative; */
+            top: 0;
+            /* left: 10%; */
+            
+            z-index: 2;
+            
+            /* for now only */
+            /* display: flex; */
+            /* align-items: center; */
+            /* justify-content: center; */
+            
+            
+            border-bottom: 1px solid #000000;
+            
+        }
+        #pc_navbar_top > ion-icon{
+            
+            color: #000000;
+            
+            font-size: 3rem;
+            
+            /* height: 4.6vh; */
+            
+            
+        }
+        #pc_navbar_top > ion-icon:hover{
+            
+            color: #2BFF15;
+            
+            /* border-bottom: 4px solid #000000; */
+            
+            /* font-size: 4.3rem; */
+            
+        }
+        /* #pc_navbartop_tools{
+            background: red;
+        } */
+        /* Staring */
+        /* #menu-icon{
+            position: relative;
+            left: 1.5rem;
+            padding: 0;
+            margin: 0;
+            font-size: 4rem;
+            
+        } */
+        #menu-icon:hover{
+            
+            color: #000000;
+            
+            
+            border-bottom: none;
+            
+        }
+        #pc-navbartop-brand{
+            
+            color: #000;
+            
+            position: relative;
+            /* left: 5rem; */
+            top: 0.5rem;
+        }        
+        
+        #navbar-top-form{
+            
+            border: 1px solid #FFFFFF;
+            display: flex;
+            
+            
+            height: 3.5vh;
+            width: 320px;
+            
+            position: relative;
+            left: 10rem;
+            top: 0.2rem;
+            
+            
+        }
+        #searchbar{
+            width: 250px;
+            height: 2.4vh;
+            
+            position: relative;
+            top: 0.6rem;
+            left: 1rem;
+        }
+        
+        #search-icon{
+            
+            height: 1.8vh;
+            
+            position: relative;
+            top: -0.2rem;
+            left: 5rem;
+            
+            
+            
+            
+        }
+        #search-icon:hover{
+            
+            border-bottom: none;
+            
+            
+        }
+        /* #voicesearch-icon{
+            position: relative;
+            font-size: 4rem;
+            color: green;
+            
+            position: relative;
+            left: 4rem;
+            
+            
+        } */
+        
+        #voicesearch-icon:hover{
+            border-bottom: none;
+            
+            font-style: italic;
+            font-size: 3rem;
+            
+        }
+        /* #rocket-icon{
+            
+            position: relative;
+            font-size: 4rem;
+        } */
+        #notifications-icon{
+        }
+        #profile-icon{
+            
+            position: relative;
+            /* left: 2rem; */
+            /* top: 0.4rem; */
+            
+            /* font-size: 3.5rem; */
+        }
+        #allapps-icon{
+            
+            
+        }
+        #dropdown-icon{
+            
+            position: relative;
+            /* left: 1rem; */
+            
+        }
+        
+        
         
         
         
@@ -28,7 +201,7 @@
             
             /* position: relative; */
             position: fixed;            
-            top: 2.5vh;
+            top: 5vh;
             left: 0;
             
             
@@ -63,7 +236,7 @@
             
             position: relative;
             /* right: 1rem; */
-            left: 0.5rem;
+            left: 0.3rem;
             
             width: 5.6rem;
             
@@ -80,7 +253,7 @@
             
             
             color: #000000;
-            border-right: 7px solid #26283D;
+            border-right: 5px solid #26283D;
             
             font-size: 5rem;
         }

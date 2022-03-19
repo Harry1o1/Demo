@@ -1,8 +1,6 @@
     @mixin navbar2-mb {
         #mb_navbar_top {
             
-            /* background: #FFFFFF; */
-            /* filter: saturate(300%); */
             display: grid;
             grid-template-rows: 7.5vh;
             /* box-shadow:  18px 18px 63px #666666,
@@ -12,13 +10,15 @@
             
             position: relative;
             
+            z-index: 1;
             
              transition-delay: 0.5s;
-            box-shadow:  18px 18px 36px #5a5a5a,
+        background: #e0e0e0;
+        box-shadow:  18px 18px 36px #5a5a5a,
                      -18px -18px 36px #ffffff;
             
-            /* padding-right: 0.2rem; */
-            z-index: 1;
+            
+            
         }
         #mb_navbartop_header > ion-icon{
             /* color: #15FF56; */

@@ -1,4 +1,4 @@
-import '../styles/Agenda.css'
+import '../styles/globals.css'
 
 import Layout from '../components/layout'
 
