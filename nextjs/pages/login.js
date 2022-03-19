@@ -2,91 +2,126 @@ import Link from 'next/link'
 import Script from 'next/script'
 import Head from 'next/head'
 
-// import Document, { Html, Head, Main, NextScript } from 'next/document'
-
-// opbro🎉🎉🎉🎉😎😎😎😎
 
 
 
 
 
-export default function Login_logout(){
+
+export default function Temporary_Join_Signin(){
   return (
     <>
-        
-        <div className="container">
-          <div className="forms">
-            <div className="form login">
-              <span className="title">Login</span>
-              <form action="#">
-                <div className="input-field">
-                  <input type="text" placeholder="Enter your email" required />
-                  <i className="uil uil-envelope icon" />
-                </div>
-                <div className="input-field">
-                  <input type="password" className="password" placeholder="Enter your password" required />
-                  <i className="uil uil-lock icon" />
-                  <i className="uil uil-eye-slash showHidePw" />
-                </div>
-                <div className="checkbox-text">
-                  <div className="checkbox-content">
-                    <input type="checkbox" id="logCheck" />
-                    <label htmlFor="logCheck" className="text">Remember me</label>
-                  </div>
-                  <a href="#" className="text">Forgot password?</a>
-                </div>
-                <div className="input-field button">
-                  <input type="button" defaultValue="Login Now" />
-                </div>
-              </form>
-              <div className="login-signup">
-                <span className="text">Not a member?
-                  <a href="#" className="text signup-link">Signup now</a>
-                </span>
-              </div>
-            </div>
-            {/* Registration Form */}
-            <div className="form signup">
-              <span className="title">Registration</span>
-              <form action="#">
-                <div className="input-field">
-                  <input type="text" placeholder="Enter your name" required />
-                  <i className="uil uil-user" />
-                </div>
-                <div className="input-field">
-                  <input type="text" placeholder="Enter your email" required />
-                  <i className="uil uil-envelope icon" />
-                </div>
-                <div className="input-field">
-                  <input type="password" className="password" placeholder="Create a password" required />
-                  <i className="uil uil-lock icon" />
-                </div>
-                <div className="input-field">
-                  <input type="password" className="password" placeholder="Confirm a password" required />
-                  <i className="uil uil-lock icon" />
-                  <i className="uil uil-eye-slash showHidePw" />
-                </div>
-                <div className="checkbox-text">
-                  <div className="checkbox-content">
-                    <input type="checkbox" id="sigCheck" />
-                    <label htmlFor="sigCheck" className="text">Remember me</label>
-                  </div>
-                  <a href="#" className="text">Forgot password?</a>
-                </div>
-                <div className="input-field button">
-                  <input type="button" defaultValue="Login Now" />
-                </div>
-              </form>
-              <div className="login-signup">
-                <span className="text">Not a member?
-                  <a href="#" className="text login-link">Signup now</a>
-                </span>
-              </div>
-            </div>
+
+
+<div id="join-signin_container">
+  <div className="forms ">
+    <div id="join-container">
+      <h1>Join Hello</h1>
+      <div id="input-container1" className="input-containers">
+        <ion-icon name="person-outline" />
+        <input type="search" name="op1o1" placeholder="Enter Name" id="op1o1" />
+      </div>
+      <div id="input-container2" className="input-containers">
+        <ion-icon name="mail-outline" />
+        <input type="search" name="op1o1" placeholder="Enter Email" id="op1o1" />
+      </div>
+      <div id="input-container5" className="input-containers">
+        <ion-icon name="key-outline" />
+        <input type="search" name="op1o1" placeholder="Enter Password" id="op1o1" />
+      </div>
+      <div id="input-container6" className="input-containers">
+        <ion-icon name="refresh-outline" />
+        <input type="search" name="op1o1" placeholder="Enter Cpassword" id="op1o1" />
+      </div>
+      <div id="others-container">
+        <div id="btn">Next</div>
+        <div id="or-container">
+          <div id="line1" />
+          <h1> or </h1>
+          <div id="line2" />
+        </div>
+        <div id="wallet_connect-login-container">
+          <div id="wallet_connect-login-button">
+            Connect to WalletConnect
           </div>
         </div>
-        
-        
+        <div id="social-login-container">
+          <div id="social_login_header">
+            <img src="../../public/Google.png" alt="google-icon" width={48} height={48} />
+            <img src="../../public/Facebook.png" alt="linkedin-icon" width={48} height={48} />
+            <div className="circle">
+              <ion-icon name="caret-down" />
+            </div>
+          </div>
+          <div id="social_login_toolbar">
+            <img src="../../public/Discord.png" alt="google-icon" width={48} height={48} />
+            <img src="../../public/Messanger.png" alt="linkedin-icon" width={48} height={48} />
+            <img src="../../public/Linkedin.png" alt="Linkin" width={48} height={48} />
+          </div>
+        </div>
+        <h2>Already a membar?<a href="#" id="join_toggle" className="join_signin_toggle">Signin</a></h2>
+      </div>
+    </div>
+    <div id="signin-container">
+      <h1>Signin Hello</h1>
+      {/* <div id="input-container1" class="input-containers">
+              <ion-icon name="person-outline"></ion-icon>
+              <input type="search" name="op1o1" placeholder="Enter Name" id="op1o1">
+          </div> */}
+      <div id="input-container2" className="input-containers">
+        <ion-icon name="mail-outline" />
+        <input type="search" name="op1o1" placeholder="Enter Email" id="op1o1" />
+      </div>
+      <div id="input-container3" className="input-containers">
+        <ion-icon name="key-outline" />
+        <input type="search" name="op1o1" placeholder="Enter Password" id="op1o1" />
+      </div>
+      <div id="others-container">
+        <div id="btn">Next</div>
+        <div id="or-container">
+          <div id="line1" />
+          <h1> or </h1>
+          <div id="line2" />
+        </div>
+        <div id="wallet_connect-login-container">
+          <div id="wallet_connect-login-button">
+            Connect to WalletConnect
+          </div>
+        </div>
+        <div id="social-login-container">
+          <div id="social_login_header">
+            <img src="../../public/Google.png" alt="google-icon" width={48} height={48} />
+            <img src="../../public/Facebook.png" alt="linkedin-icon" width={48} height={48} />
+            <div className="circle">
+              <ion-icon name="caret-down" />
+            </div>
+          </div>
+          <div id="social_login_toolbar">
+            <img src="../../public/Discord.png" alt="google-icon" width={48} height={48} />
+            <img src="../../public/Messanger.png" alt="linkedin-icon" width={48} height={48} />
+            <img src="../../public/Linkedin.png" alt="Linkin" width={48} height={48} />
+          </div>
+        </div>
+        <h2>Not a membar?<a href="#" id="signin_toggle" className="join_signin_toggle">Join</a></h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -98,7 +133,7 @@ export default function Login_logout(){
 
 
       <Script
-        type="module" src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs/pages-html/login.js"
+        src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs/containers/Join&Signin/main.js"
         strategy="beforeInteractive"
       />
 
@@ -106,10 +141,8 @@ export default function Login_logout(){
         <title>LetWorkBeDone</title>
         <meta name="description" content="Generated by create next app" />
 
-        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet' />
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
         
-        <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs/pages-html/login1o3.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs/containers/Join&Signin/style.css" rel="stylesheet" />
 
         
         
