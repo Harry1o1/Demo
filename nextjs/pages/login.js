@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Script from 'next/script'
 import Head from 'next/head'
+import Image from 'next/image'
 
 
 
@@ -18,19 +19,27 @@ export default function Temporary_Join_Signin(){
     <div id="join-container">
       <h1>Join Hello</h1>
       <div id="input-container1" className="input-containers">
-        <ion-icon name="person-outline" />
+        <div className="icons">
+          <ion-icon name="person-outline" />
+        </div>
         <input type="search" name="op1o1" placeholder="Enter Name" id="op1o1" />
       </div>
       <div id="input-container2" className="input-containers">
-        <ion-icon name="mail-outline" />
+        <div className="icons">
+          <ion-icon name="mail-outline" />
+        </div>
         <input type="search" name="op1o1" placeholder="Enter Email" id="op1o1" />
       </div>
       <div id="input-container5" className="input-containers">
-        <ion-icon name="key-outline" />
+        <div className="icons">
+          <ion-icon name="key-outline" />
+        </div>
         <input type="search" name="op1o1" placeholder="Enter Password" id="op1o1" />
       </div>
       <div id="input-container6" className="input-containers">
-        <ion-icon name="refresh-outline" />
+        <div className="icons">
+          <ion-icon name="refresh-outline" />
+        </div>
         <input type="search" name="op1o1" placeholder="Enter Cpassword" id="op1o1" />
       </div>
       <div id="others-container">
@@ -47,16 +56,16 @@ export default function Temporary_Join_Signin(){
         </div>
         <div id="social-login-container">
           <div id="social_login_header">
-            <img src="../../public/Google.png" alt="google-icon" width={48} height={48} />
-            <img src="../../public/Facebook.png" alt="linkedin-icon" width={48} height={48} />
+            <Image src="/Google.png" alt="google-icon" width={48} height={48} />
+            <Image src="/Facebook.png" alt="linkedin-icon" width={48} height={48} />
             <div className="circle">
               <ion-icon name="caret-down" />
             </div>
           </div>
           <div id="social_login_toolbar">
-            <img src="../../public/Discord.png" alt="google-icon" width={48} height={48} />
-            <img src="../../public/Messanger.png" alt="linkedin-icon" width={48} height={48} />
-            <img src="../../public/Linkedin.png" alt="Linkin" width={48} height={48} />
+            <Image src="/Discord.png" alt="google-icon" width={48} height={48} />
+            <Image src="/Messanger.png" alt="linkedin-icon" width={48} height={48} />
+            <Image src="/Linkedin.png" alt="Linkin" width={48} height={48} />
           </div>
         </div>
         <h2>Already a membar?<a href="#" id="join_toggle" className="join_signin_toggle">Signin</a></h2>
@@ -69,11 +78,15 @@ export default function Temporary_Join_Signin(){
               <input type="search" name="op1o1" placeholder="Enter Name" id="op1o1">
           </div> */}
       <div id="input-container2" className="input-containers">
-        <ion-icon name="mail-outline" />
+        <div className="icons">
+          <ion-icon name="mail-outline" />
+        </div>
         <input type="search" name="op1o1" placeholder="Enter Email" id="op1o1" />
       </div>
       <div id="input-container3" className="input-containers">
-        <ion-icon name="key-outline" />
+        <div className="icons">
+          <ion-icon name="key-outline" />
+        </div>
         <input type="search" name="op1o1" placeholder="Enter Password" id="op1o1" />
       </div>
       <div id="others-container">
@@ -90,16 +103,16 @@ export default function Temporary_Join_Signin(){
         </div>
         <div id="social-login-container">
           <div id="social_login_header">
-            <img src="../../public/Google.png" alt="google-icon" width={48} height={48} />
-            <img src="../../public/Facebook.png" alt="linkedin-icon" width={48} height={48} />
+            <Image src="/Google.png" alt="google-icon" width={48} height={48} />
+            <Image src="/Facebook.png" alt="linkedin-icon" width={48} height={48} />
             <div className="circle">
               <ion-icon name="caret-down" />
             </div>
           </div>
           <div id="social_login_toolbar">
-            <img src="../../public/Discord.png" alt="google-icon" width={48} height={48} />
-            <img src="../../public/Messanger.png" alt="linkedin-icon" width={48} height={48} />
-            <img src="../../public/Linkedin.png" alt="Linkin" width={48} height={48} />
+            <Image src="/Discord.png" alt="google-icon" width={48} height={48} />
+            <Image src="/Messanger.png" alt="linkedin-icon" width={48} height={48} />
+            <Image src="/Linkedin.png" alt="Linkin" width={48} height={48} />
           </div>
         </div>
         <h2>Not a membar?<a href="#" id="signin_toggle" className="join_signin_toggle">Join</a></h2>
@@ -107,10 +120,6 @@ export default function Temporary_Join_Signin(){
     </div>
   </div>
 </div>
-
-
-
-
 
 
 
@@ -142,7 +151,7 @@ export default function Temporary_Join_Signin(){
         <meta name="description" content="Generated by create next app" />
 
         
-        <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs/containers/Join&Signin/style.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs/containers/Join&Signin/style1o1.css" rel="stylesheet" />
 
         
         
