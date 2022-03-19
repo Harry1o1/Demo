@@ -1,10 +1,32 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { motion } from 'framer-motion';
+
+
+
+
 
 export default function Home() {
   return (
     <>  
+    <motion.div initial="hidden" animate="visible" variants={{
+  hidden: {
+    scale: .8,
+    opacity: 0
+  },
+  visible: {
+    scale: 1,
+    opacity: 1,
+    transition: {
+      delay: .4
+    }
+  },
+}}>
+  <h1 className="title">
+   Hello framermotion!
+  </h1>
+</motion.div>
     <h1 className="text-3xl font-bold underline">
       Hello world!
     </h1>
