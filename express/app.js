@@ -1,8 +1,5 @@
 const jwt = require('jsonwebtoken'); //JSONTOKEN
 const dotenv = require('dotenv'); //DOT ENV
-dotenv.config({
-    path: './config.env'
-}); //CONFIGURE PATH
 const express = require('express'); //EXPRESS
 const bcrypt = require('bcryptjs'); //NOT NEEDED
 const cors = require('cors'); //CORS
@@ -27,6 +24,10 @@ const checklist_commonday = require('./routes/checklist_commonday'); // ("/regis
 // const login = require('./routes/login'); // ("/login")
 const about = require('./routes/about'); // ("/about")
 // const contact = require('./routes/contact'); // ("/contact")
+
+dotenv.config({
+    path: './config.env'
+}); //CONFIGURE PATH
 
 
 
