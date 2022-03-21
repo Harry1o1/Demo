@@ -1,0 +1,191 @@
+:root {
+
+    /*-----------------------------------*\
+  #Colors+Bg variables
+\*-----------------------------------*/
+
+    --navbartop-bg: hsla(235, 0%, 96%, 1);
+    --navbartop-height: 3rem;
+    /*-----------------------------------*\
+  #Colors+Bg variables
+\*-----------------------------------*/
+    --icon-size: 1.5rem;
+    --icon-color: #42445A;
+}
+
+
+*,
+*::before,
+*::after {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    color: hsla(283, 0%, 0%, 1) !important;
+}
+
+
+
+html {
+    visibility: none !important;
+    min-height: 100vh !important;
+    width: 100% !important;
+}
+
+body {
+    /* min-height: 100%; */
+    min-height: 300vh !important;
+    width: 100% !important;
+
+}
+
+
+
+
+
+@media(min-width:900px) {
+    :root {
+
+        --pro-navbartop-grid: 1fr 4fr 4fr 4fr 1fr;
+
+
+    }
+
+    .pc {
+        display: block !important;
+    }
+
+    .mb {
+        display: none !important;
+    }
+}
+
+
+@media(min-width:360px) and (max-width: 900px) {
+    :root {
+
+        --pro-navbartop-grid: 1.5fr 4fr 4fr 1.5fr;
+        --navbartop-height: 5rem !important;
+
+
+    }
+
+    .pc {
+        display: none !important;
+    }
+
+    .mb {
+        display: block !important;
+    }
+
+
+}
+
+ion-icon {
+
+    color: var(--icon-color) !important;
+    font-size: var(--icon-size) !important;
+
+
+}
+
+
+
+
+
+
+
+
+#pro_navbar_top {
+
+    background: var(--navbartop-bg);
+    display: grid;
+    grid-template-columns: var(--pro-navbartop-grid);
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    /* min-height: var(--navbartop-height); */
+    min-height: 4rem;
+    width: 100%;
+    
+    z-index: 2;
+}
+
+
+
+
+
+#pntlc,
+#pntrc,
+.pntcc,
+.pntgc,
+#search-container,.lg1,.rg1,.pntrcc,.pntlcc {
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    column-gap: 7% !important;
+
+}
+
+/* #pntcc{
+    
+    padding: 0.3vh;
+} */
+#search-container{
+    
+    background: hsla(235, 0%, 99%, 1);
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    
+    
+    min-height: 3rem;
+    width: 100%;
+    
+    padding: 1rem;
+}
+#search-container input{
+
+    background: transparent;
+    border: 0;
+    outline: none;
+
+    width: 50%;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    
+    background: hsla(235, 100%, 98%, 1);
+    /* color: hsla(235, 0%, 100%, 1) !important; */
+    
+    position: relative;
+    top: 4rem;
+    left: 0;
+    
+    
+    min-height: 100vh;
+    width: 100%;
+}
