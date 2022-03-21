@@ -13,11 +13,25 @@ const provider_options = {
     walletconnect:{
         package:WalletConnectProvider,
         potions:{
-            infuraId:'9be086ebe06d32388aa57a1abe225a7e'
+            infuraId:'27e484dcd9e3efcfd25a83a78777cdf1'
         }
     }
 }
 
+
+// const provider = new WalletConnectProvider({
+//   infuraId: "27e484dcd9e3efcfd25a83a78777cdf1",
+//   qrcodeModalOptions: {
+//     mobileLinks: [
+//       "rainbow",
+//       "metamask",
+//       "argent",
+//       "trust",
+//       "imtoken",
+//       "pillar",
+//     ],
+//   },
+// });
 if(typeof window !== 'undefined'){
     
     const web3modal = new Web3Modal({
