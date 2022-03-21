@@ -8,6 +8,16 @@ import Web3 from 'web3';
 import Web3Modal from 'web3modal';
 import WalletConnectProvider from '@walletconnect/web3-provider';
 
+
+const provider_options = {
+    walletconnect:{
+        package:WalletConnectProvider,
+        potions:{
+            infuraId:'9be086ebe06d32388aa57a1abe225a7e'
+        }
+    }
+}
+
 if(typeof window !== 'undefined'){
     
     const web3modal = new Web3Modal({
@@ -21,14 +31,6 @@ if(typeof window !== 'undefined'){
     
     
 
-}
-const provider_options = {
-    walletconnect:{
-        package:WalletConnectProvider,
-        potions:{
-            infuraId:'9be086ebe06d32388aa57a1abe225a7e'
-        }
-    }
 }
 
 export default function Temporary_Join_Signin(){
