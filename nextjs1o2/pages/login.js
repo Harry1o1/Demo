@@ -6,13 +6,15 @@ import Image from 'next/image'
 
 import Web3 from 'web3';
 import Web3Modal from 'web3modal';
+import WalletConnectProvider from '@walletconnect/web3-provider';
+
 if(typeof window !== 'undefined'){
     
     const web3modal = new Web3Modal({
         
         network:'mainnet',
         cahceProvider:true,
-        provider_options
+        providerOptions: provider_options,
         
     })
     
@@ -21,7 +23,12 @@ if(typeof window !== 'undefined'){
 
 }
 const provider_options = {
-    
+    walletconnect:{
+        package:WalletConnectProvider,
+        potions:{
+            infuraId:'9be086ebe06d32388aa57a1abe225a7e'
+        }
+    }
 }
 
 export default function Temporary_Join_Signin(){
@@ -66,7 +73,7 @@ export default function Temporary_Join_Signin(){
                 </div>
                 <div id="wallet_connect-login-container" onClick={async()=>{
                     const provider = await web3modal.connect();
-                    const web3 = new Web3(privider);
+                    const web3 = new Web3(provider);
                 }}>
                   <div id="wallet_connect-login-button">
                     Connect to WalletConnect
