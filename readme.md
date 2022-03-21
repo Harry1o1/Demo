@@ -161,7 +161,10 @@ git config --list
 
 
 
-
+### An important git command
+```bash
+python manage.py runserver 0.0.0.0:3001
+```
 
 
 
