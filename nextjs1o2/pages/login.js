@@ -9,36 +9,36 @@ import Web3Modal from 'web3modal';
 import WalletConnectProvider from '@walletconnect/web3-provider';
 
 
-const provider_options = {
-    walletconnect:{
-        package:WalletConnectProvider,
-        potions:{
-            infuraId:'27e484dcd9e3efcfd25a83a78777cdf1'
-        }
-    }
-}
+// const provider_options = {
+//     walletconnect:{
+//         package:WalletConnectProvider,
+//         potions:{
+//             infuraId:'27e484dcd9e3efcfd25a83a78777cdf1'
+//         }
+//     }
+// }
 
 
-// const provider = new WalletConnectProvider({
-//   infuraId: "27e484dcd9e3efcfd25a83a78777cdf1",
-//   qrcodeModalOptions: {
-//     mobileLinks: [
-//       "rainbow",
-//       "metamask",
-//       "argent",
-//       "trust",
-//       "imtoken",
-//       "pillar",
-//     ],
-//   },
-// });
+const provider = new WalletConnectProvider({
+  infuraId: "27e484dcd9e3efcfd25a83a78777cdf1",
+  qrcodeModalOptions: {
+    mobileLinks: [
+      "rainbow",
+      "metamask",
+      "argent",
+      "trust",
+      "imtoken",
+      "pillar",
+    ],
+  },
+});
 if(typeof window !== 'undefined'){
     
     const web3modal = new Web3Modal({
         
         network:'mainnet',
         cahceProvider:true,
-        providerOptions: provider_options,
+        providerOptions: provider,
         
     })
     
@@ -183,7 +183,7 @@ export default function Temporary_Join_Signin(){
 
 
       <Script
-        src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs/containers/Join&Signin/main.js"
+        src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs1o2/containers/Join&Signin/main.js"
         strategy="beforeInteractive"
       />
 
