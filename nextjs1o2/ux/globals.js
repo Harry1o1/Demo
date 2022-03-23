@@ -81,7 +81,7 @@ if (toggle != null && sidebar != null && modeSwitch != null && modeText != null 
             
         }
         
-        r.style.setProperty('--slider-left',`-${ a*30 }px`);
+        r.style.setProperty('--slider-left',`-100%`);
         // console.log(result);
         // console.log(a);
         // return result;
@@ -98,7 +98,7 @@ if (toggle != null && sidebar != null && modeSwitch != null && modeText != null 
             
         }
         
-        r.style.setProperty('--slider-left',`-${ a*30 }px`);
+        r.style.setProperty('--slider-left',`-100%`);
         // console.log(a);
         // console.log(leftarrow_guideline);
         // result=`-${a * 30}`;

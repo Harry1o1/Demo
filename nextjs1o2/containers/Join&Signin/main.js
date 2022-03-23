@@ -66,11 +66,6 @@ let r=document.querySelector(':root');
 
 
 // let cdrop = document.querySelectorAll(".drop");
-// cdrop.forEach(drop => {
-//     drop.addEventListener('click', ()=>{
-//         console.log('op');
-//     })
-// })
 // drop.forEach
 
 
